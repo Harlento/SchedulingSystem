@@ -3,6 +3,8 @@
 MySQLi is an API for PHP that allows  connections to MySQL databases and it would be usefull to research all the functions available
 and how to use them. PDO is another option for achieving the same thing. Further research is required to determine what is better.
 
+PHP FTP functions may be needed if we want to send files to the payroll employees from the server.
+
 Methods of achieving secure data should be researched. SQL injections are a potential threat otherwise.
 
 CSS and HTML should be researched especially with regards to producing a good looking page for the coordinators to use for scheduling.
