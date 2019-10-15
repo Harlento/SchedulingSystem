@@ -1,4 +1,4 @@
-User authentication is very easy to mess up extensive research into this must be done. 
+User authentication is very easy to mess up extensive research into this topic must be done. 
 ("Salt hashing"?? the bcrypt or scrypt algorithms could be used).
 
 MySQLi is an open source API for PHP that allows connections to MySQL databases and it would be usefull to research all the functions 
