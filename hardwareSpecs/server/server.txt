@@ -1,0 +1,5 @@
+
+Windows server 2016 essentials
+CPU - Xeon E3-1220 V5
+RAM - 16Gb DDR4
+Storage - 400Gb HDD D:\
