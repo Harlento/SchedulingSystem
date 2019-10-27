@@ -1,0 +1,4 @@
+
+Drag and drop looks easier than I originally anticipated.
+
+https://www.w3schools.com/html/html5_draganddrop.asp
