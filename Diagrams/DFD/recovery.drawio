@@ -1,16 +1,16 @@
-<mxfile host="www.draw.io" modified="2020-02-01T01:31:52.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="8nv-caOrWFQuJjD4A_MO" version="12.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-01T03:41:43.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="iK6W8Dgd1CU9GZD_ZUzm" version="12.6.2" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1102" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 1&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Rebuild database&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+        <mxCell id="2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 1&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Rebuild database&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="325" y="236" width="110" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="Administrator" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+        <mxCell id="3" value="Administrator" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="251" width="90" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="GCj06kqIi2PVKW-XeLto-104" value="a2hosting &lt;br&gt;server file&lt;br&gt;&amp;nbsp;system&lt;br&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GCj06kqIi2PVKW-XeLto-104" value="a2hosting &lt;br&gt;server file&lt;br&gt;&amp;nbsp;system&lt;br&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="100" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="GCj06kqIi2PVKW-XeLto-106" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="2">
@@ -19,10 +19,10 @@
             <mxPoint x="280" y="250" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GCj06kqIi2PVKW-XeLto-107" value="Edenbridges&lt;br&gt;office server" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GCj06kqIi2PVKW-XeLto-107" value="Edenbridges&lt;br&gt;office server" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="330" y="40" width="100" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="GCj06kqIi2PVKW-XeLto-108" value="Altis&#39;s backup&lt;br&gt;storage" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GCj06kqIi2PVKW-XeLto-108" value="Altis&#39;s backup&lt;br&gt;storage" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="560" y="40" width="100" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="GCj06kqIi2PVKW-XeLto-109" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCj06kqIi2PVKW-XeLto-104" target="2">
@@ -53,7 +53,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GCj06kqIi2PVKW-XeLto-112" value="a2hosting &lt;br&gt;server file&lt;br&gt;&amp;nbsp;system&lt;br&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GCj06kqIi2PVKW-XeLto-112" value="a2hosting &lt;br&gt;server file&lt;br&gt;&amp;nbsp;system&lt;br&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="330" y="450" width="100" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="GCj06kqIi2PVKW-XeLto-113" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="GCj06kqIi2PVKW-XeLto-112">
