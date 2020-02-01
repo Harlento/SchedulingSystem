@@ -1,16 +1,16 @@
-<mxfile host="www.draw.io" modified="2020-02-01T01:33:03.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="HUSmWVFhypSU4n506z54" version="12.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-01T03:41:36.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="xpCReSPrzixJwd9YA4T5" version="12.6.2" type="github">
   <diagram id="XXYjW8cvs6eSPe_TK9Py" name="Page-1">
-    <mxGraphModel dx="2146" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1768" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="mT3woQDCBKkYmHbc7A2_-3" value="Altis backup&lt;br&gt;storage" style="shape=dataStorage;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mT3woQDCBKkYmHbc7A2_-3" value="Altis backup&lt;br&gt;storage" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="605" y="120" width="100" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="mT3woQDCBKkYmHbc7A2_-4" value="Edenbridge &lt;br&gt;office server&lt;br&gt;storage" style="shape=dataStorage;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mT3woQDCBKkYmHbc7A2_-4" value="Edenbridge &lt;br&gt;office server&lt;br&gt;storage" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="280" y="360" width="100" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="mT3woQDCBKkYmHbc7A2_-5" value="a2hosting data storage" style="shape=dataStorage;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mT3woQDCBKkYmHbc7A2_-5" value="a2hosting data storage" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="280" y="120" width="100" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="XWCJ3FXK9SqCUyiiggYx-11" value="" style="endArrow=classic;html=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="mT3woQDCBKkYmHbc7A2_-5" edge="1">
@@ -70,13 +70,13 @@
         <mxCell id="XWCJ3FXK9SqCUyiiggYx-23" value="Altis stores the data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="510" y="250" width="170" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="NyH1xOctMZm4rYqJ9NfT-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 1&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Cron event mysqldump PHP script&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+        <mxCell id="NyH1xOctMZm4rYqJ9NfT-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 1&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Cron event mysqldump PHP script&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-15" y="120" width="110" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="NyH1xOctMZm4rYqJ9NfT-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 2&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Cron event&lt;/span&gt;&lt;br style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;SFTP backup file to Edenbridge&#39;s server&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+        <mxCell id="NyH1xOctMZm4rYqJ9NfT-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 2&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Cron event&lt;/span&gt;&lt;br style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;SFTP backup file to Edenbridge&#39;s server&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-20" y="350" width="110" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="NyH1xOctMZm4rYqJ9NfT-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 3&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Altis backup&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+        <mxCell id="NyH1xOctMZm4rYqJ9NfT-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Process 3&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Altis backup&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="600" y="355" width="110" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="NyH1xOctMZm4rYqJ9NfT-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NyH1xOctMZm4rYqJ9NfT-4" target="mT3woQDCBKkYmHbc7A2_-3">
