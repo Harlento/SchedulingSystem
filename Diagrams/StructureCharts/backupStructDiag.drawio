@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-08T18:42:41.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QJGyhbktVJeJSHNpOJZm" version="12.6.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-08T18:47:17.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1FZSs9Da7TTgUAgOxG_Q" version="12.6.6" type="github">
   <diagram id="xe06HkWHHzPFj2pmdTzM" name="Page-1">
     <mxGraphModel dx="1952" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="woLN6Q-zK8-F-ZphDt29-103" value="Bool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="805" y="195" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="woLN6Q-zK8-F-ZphDt29-104" value="Log entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="775" y="125" width="105" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
