@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-08T18:47:17.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1FZSs9Da7TTgUAgOxG_Q" version="12.6.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-08T19:06:04.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="tea509R9NSHdNll_r9ER" version="12.6.6" type="github">
   <diagram id="xe06HkWHHzPFj2pmdTzM" name="Page-1">
     <mxGraphModel dx="1952" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="woLN6Q-zK8-F-ZphDt29-13" value="1.5&lt;br&gt;Log failure" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="880" y="200" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="woLN6Q-zK8-F-ZphDt29-15" value="1.1.1&lt;br&gt;Scan directory" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="woLN6Q-zK8-F-ZphDt29-15" value="1.1.1&lt;br&gt;Scan backup directory" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry y="440" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="woLN6Q-zK8-F-ZphDt29-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
@@ -46,7 +46,7 @@
         <mxCell id="woLN6Q-zK8-F-ZphDt29-21" value="Array of backup files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="410" width="80" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="woLN6Q-zK8-F-ZphDt29-22" value="1.1.2&lt;br&gt;Sort directory array" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="woLN6Q-zK8-F-ZphDt29-22" value="1.1.2&lt;br&gt;Sort backup directory array" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="160" y="440" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="woLN6Q-zK8-F-ZphDt29-25" value="1.2.1&lt;br&gt;Get last file name in the array" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -145,8 +145,8 @@
             <mxPoint x="180" y="310" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="woLN6Q-zK8-F-ZphDt29-47" value="Sorted array of directory files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="320" width="80" height="20" as="geometry"/>
+        <mxCell id="woLN6Q-zK8-F-ZphDt29-47" value="Sorted array of backup directory files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="305" width="80" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="woLN6Q-zK8-F-ZphDt29-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="650" y="165" width="10" height="10" as="geometry"/>
@@ -332,7 +332,7 @@
           <mxGeometry x="810" y="175" width="10" height="10" as="geometry"/>
         </mxCell>
         <mxCell id="woLN6Q-zK8-F-ZphDt29-103" value="Bool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="805" y="195" width="40" height="20" as="geometry"/>
+          <mxGeometry x="805" y="190" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="woLN6Q-zK8-F-ZphDt29-104" value="Log entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="775" y="125" width="105" height="20" as="geometry"/>
