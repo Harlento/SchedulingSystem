@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-09T05:43:00.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Dw4IkpC5By-D7ghFLjc3" version="12.6.6" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2020-02-09T06:00:18.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Ej7yrb2eTWQKiGkrmosJ" version="12.6.6" type="github" pages="20">
   <diagram id="AlIPhoaxZdNtrRPldIkT" name="Context">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1673,7 +1673,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="GLPLbodFKkkkhxTrFFke" name="11: Schedule Recurring Shifts">
+  <diagram id="GLPLbodFKkkkhxTrFFke" name="*11: Schedule Recurring Shifts">
     <mxGraphModel dx="1038" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="TQf5Rka0XrAgmZJHM_qj-0"/>
@@ -2107,7 +2107,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="p4C4y1ZiN_HkLgXnLgHB" name="13: Modify Shifts">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Hc8liQ7P8QMr2trJYDk8-0"/>
         <mxCell id="Hc8liQ7P8QMr2trJYDk8-1" parent="Hc8liQ7P8QMr2trJYDk8-0"/>
@@ -2200,7 +2200,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2AzqCDrAROah0a31er6C-32" value="Detailed Shift View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
+        <mxCell id="2AzqCDrAROah0a31er6C-32" value="Editable Shift Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
           <mxGeometry x="150" y="510" width="200" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="Uts3E2VXrQzDhY2SbfJD-0" value="Department&amp;nbsp; Table" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
@@ -2341,14 +2341,14 @@
         <mxCell id="evQGYjQ_OJMiW0w5T2Rh-4" value="Shift Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
           <mxGeometry x="536.75" y="550" width="160" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="LzAdJ_3A3VU-b4IVPBX_-0" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.9;exitY=0.503;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Hc8liQ7P8QMr2trJYDk8-1" source="evQGYjQ_OJMiW0w5T2Rh-2" target="2AzqCDrAROah0a31er6C-9">
+        <mxCell id="LzAdJ_3A3VU-b4IVPBX_-0" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="550" as="sourcePoint"/>
-            <mxPoint x="646" y="625" as="targetPoint"/>
+            <mxPoint x="743" y="590" as="sourcePoint"/>
+            <mxPoint x="455.5" y="670" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="860" y="570"/>
-              <mxPoint x="860" y="620"/>
-              <mxPoint x="453" y="620"/>
+              <mxPoint x="693" y="590"/>
+              <mxPoint x="693" y="620"/>
+              <mxPoint x="456" y="620"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2387,7 +2387,7 @@
           <mxGeometry x="660" y="710" width="170" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="LAyeRLP45XTl8EezfaDr-0" value="Shift Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
-          <mxGeometry x="536.75" y="598" width="160" height="20" as="geometry"/>
+          <mxGeometry x="500" y="598" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="LAyeRLP45XTl8EezfaDr-1" value="Staff Information for Shift" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
           <mxGeometry x="650" y="670" width="160" height="20" as="geometry"/>
@@ -2398,6 +2398,84 @@
         <mxCell id="Ph8Uurqy9J0BvB9u2Heq-0" value="Request to Edit Selected Shift" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
           <mxGeometry x="185" y="477" width="185" height="20" as="geometry"/>
         </mxCell>
+        <mxCell id="jUl9xbdyIfwJbJ18-DLJ-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;13.5&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; white-space: normal&quot;&gt;Update Shift Details&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
+          <mxGeometry x="426.75" y="775" width="110" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="jUl9xbdyIfwJbJ18-DLJ-1" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0.905;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Hc8liQ7P8QMr2trJYDk8-1" source="jUl9xbdyIfwJbJ18-DLJ-0" target="evQGYjQ_OJMiW0w5T2Rh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="900" as="sourcePoint"/>
+            <mxPoint x="890" y="770" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="940" y="820"/>
+              <mxPoint x="940" y="571"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8h-rfMhtiP3PUX97-Xf-0" value="Updated Shift Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
+          <mxGeometry x="650" y="790" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uzG_GL3sWCBDRnplsO-n-0" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Hc8liQ7P8QMr2trJYDk8-1" source="2AzqCDrAROah0a31er6C-1" target="jUl9xbdyIfwJbJ18-DLJ-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49.99999999999977" y="559.41" as="sourcePoint"/>
+            <mxPoint x="337" y="800.09" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="90" y="580"/>
+              <mxPoint x="320" y="580"/>
+              <mxPoint x="320" y="820"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzG_GL3sWCBDRnplsO-n-1" value="Updated Shift Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hc8liQ7P8QMr2trJYDk8-1">
+          <mxGeometry x="150" y="552" width="200" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9pbP6kXnciAJyN522oo4" name="*14: Modify Recurring Shifts">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Kgz2XjyyOKBQGpyq2FX8-0"/>
+        <mxCell id="Kgz2XjyyOKBQGpyq2FX8-1" parent="Kgz2XjyyOKBQGpyq2FX8-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DSHGcvBQs2Z7-_wl6uYs" name="*15: Submit Hours">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="4DJzky7U8ufs3Y0ZHt7r-0"/>
+        <mxCell id="4DJzky7U8ufs3Y0ZHt7r-1" parent="4DJzky7U8ufs3Y0ZHt7r-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RAjXc1Y7BrLuqI8Kxok2" name="*16: Approve hours">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="UqSyQtZ1LFbXD_fWAI0V-0"/>
+        <mxCell id="UqSyQtZ1LFbXD_fWAI0V-1" parent="UqSyQtZ1LFbXD_fWAI0V-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bGAbJEzXFgPlEwgUKOjk" name="*17: View Reports">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="F54h6dnWSP5Vynyd1hl--0"/>
+        <mxCell id="F54h6dnWSP5Vynyd1hl--1" parent="F54h6dnWSP5Vynyd1hl--0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GG_2AsNTLrtPLJkrW29w" name="*18: Export Financial Data">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="dlIf4d-bgdU8dO_l98uF-0"/>
+        <mxCell id="dlIf4d-bgdU8dO_l98uF-1" parent="dlIf4d-bgdU8dO_l98uF-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L1aWU1FnG2SisFSF7uhA" name="*19: Login">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="aSkEvtgjey1CiugGVwJF-0"/>
+        <mxCell id="aSkEvtgjey1CiugGVwJF-1" parent="aSkEvtgjey1CiugGVwJF-0"/>
       </root>
     </mxGraphModel>
   </diagram>
