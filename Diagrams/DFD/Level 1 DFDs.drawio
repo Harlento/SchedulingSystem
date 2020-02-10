@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-10T21:02:59.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="9qe7mBvp4G-sLveH735z" version="12.6.6" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2020-02-10T21:05:41.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="WVlP8u8vhrwiAgUcSomC" version="12.6.6" type="github" pages="20">
   <diagram id="AlIPhoaxZdNtrRPldIkT" name="Context">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2446,7 +2446,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6XPJ5HP6-VC3VTm9ikBI-11" value="Editable Shift Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
-          <mxGeometry x="150" y="510" width="200" height="30" as="geometry"/>
+          <mxGeometry x="160" y="510" width="200" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="6XPJ5HP6-VC3VTm9ikBI-12" value="Department&amp;nbsp; Table" style="shape=dataStorage;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
           <mxGeometry x="740" y="349.5" width="100" height="80" as="geometry"/>
@@ -2455,7 +2455,7 @@
           <mxGeometry x="425" y="170" width="110" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="6XPJ5HP6-VC3VTm9ikBI-14" value="Request to Modify Recurring Shifts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
-          <mxGeometry x="232.5" y="155" width="170" height="30" as="geometry"/>
+          <mxGeometry x="232.5" y="160" width="170" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="6XPJ5HP6-VC3VTm9ikBI-15" value="Entity Selection Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
           <mxGeometry x="232.5" y="210" width="155" height="30" as="geometry"/>
@@ -2656,8 +2656,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6XPJ5HP6-VC3VTm9ikBI-51" value="Updated Shift Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
-          <mxGeometry x="650" y="790" width="160" height="20" as="geometry"/>
+        <mxCell id="6XPJ5HP6-VC3VTm9ikBI-51" value="Updated Recurring Shift Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
+          <mxGeometry x="650" y="793" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="6XPJ5HP6-VC3VTm9ikBI-52" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Kgz2XjyyOKBQGpyq2FX8-1" source="6XPJ5HP6-VC3VTm9ikBI-0" target="6XPJ5HP6-VC3VTm9ikBI-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2670,8 +2670,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6XPJ5HP6-VC3VTm9ikBI-53" value="Updated Shift Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
-          <mxGeometry x="150" y="552" width="200" height="30" as="geometry"/>
+        <mxCell id="6XPJ5HP6-VC3VTm9ikBI-53" value="Updated Recurring&lt;br&gt;Shift Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Kgz2XjyyOKBQGpyq2FX8-1">
+          <mxGeometry x="150" y="548" width="200" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
