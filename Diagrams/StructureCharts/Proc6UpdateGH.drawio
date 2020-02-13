@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-13T05:27:48.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="YXKOH0KKKtfdQt7Q7a58" version="12.6.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-02-13T05:28:02.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="uCmweIiKw0NBtnl5-4FF" version="12.6.8" type="github" pages="3">
   <diagram id="Bx6rvehUoLZO955_rD8m" name="6.1: Display GH Selection Screen">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,7 +123,7 @@
         <mxCell id="W4z7vBKg3XC51k5--N2T-5" value="1.1.4&lt;br&gt;Get Required Information from Database" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
           <mxGeometry x="290" y="250" width="90" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="W4z7vBKg3XC51k5--N2T-6" value="6.2.1.1&lt;br&gt;Retrieve Record of Selected Client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
+        <mxCell id="W4z7vBKg3XC51k5--N2T-6" value="6.2.1.1&lt;br&gt;Retrieve Record of Selected Group Home" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
           <mxGeometry x="240" y="390" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="W4z7vBKg3XC51k5--N2T-7" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="BQkyG8N_VDIgJS5VGbaI-1" source="W4z7vBKg3XC51k5--N2T-5" target="W4z7vBKg3XC51k5--N2T-9">
