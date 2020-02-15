@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-15T23:26:29.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="y-FPUsjGx7lJ8po41OkZ" version="12.7.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-15T23:43:57.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="upGQt7zUcmDDTi1F5CXu" version="12.7.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="18.1 Rebuild database">
     <mxGraphModel dx="569" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,9 +279,6 @@
         </mxCell>
         <mxCell id="l7Cf8ub8_1OAxteZZlzj-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="464" y="243" width="10" height="10" as="geometry"/>
-        </mxCell>
-        <mxCell id="l7Cf8ub8_1OAxteZZlzj-4" value="&lt;div&gt;Selected &lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL&lt;/div&gt;&lt;div&gt;File&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="361" y="217" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="l7Cf8ub8_1OAxteZZlzj-5" value="&lt;div&gt;Token Validation response&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="434" y="250" width="40" height="20" as="geometry"/>
