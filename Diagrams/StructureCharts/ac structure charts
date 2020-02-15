@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-15T20:51:16.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="6NNg-moW0bzXPapqMeI1" version="12.7.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-15T20:54:07.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="rvA-FIDZMSQiDrhRqVMn" version="12.7.0" type="github" pages="2">
   <diagram id="qooImPmq5FBk4yctZrN_" name="sc11">
     <mxGraphModel dx="1762" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -381,7 +381,7 @@
             <mxPoint x="560" y="180" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NPjvztWPLHY8FkL2cAY7-46" value="13.2.1&lt;br&gt;Display shift details" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="pg_I5NeRnakYlacfUMFj-1">
+        <mxCell id="NPjvztWPLHY8FkL2cAY7-46" value="13.2.1&lt;br&gt;Display shift to be edited" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="pg_I5NeRnakYlacfUMFj-1">
           <mxGeometry x="240" y="562.5" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="NPjvztWPLHY8FkL2cAY7-47" value="send shift selection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pg_I5NeRnakYlacfUMFj-1">
