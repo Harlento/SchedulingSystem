@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-15T22:56:36.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="lEDCu-7W63DTP6OeRNJ0" version="12.7.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-15T23:01:40.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="mVkFqPH1sAxLCHwZ8pod" version="12.7.0" type="github" pages="2">
   <diagram id="vJPUer5MD2CjxXL3Lmdu" name="2.1: Display New Client Form">
     <mxGraphModel dx="700" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,18 @@
             <mxPoint x="350" y="130" as="sourcePoint"/>
             <mxPoint x="405" y="250" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FfGg4vnx21Kcao45wOE4-1" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FfGg4vnx21Kcao45wOE4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="sourcePoint"/>
+            <mxPoint x="240" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfGg4vnx21Kcao45wOE4-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="FfGg4vnx21Kcao45wOE4-9" value="user type variable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="175" width="60" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
