@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-15T23:19:52.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="aSjnxEIHd126qZ5qhMhU" version="12.7.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-15T23:19:59.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="KH0HqAFhE1-71mrI4_dp" version="12.7.0" type="github" pages="2">
   <diagram id="Qw9qsAwoKkiPCp3U7Go1" name="1.1: Display New Staff Form">
     <mxGraphModel dx="1102" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -63,12 +63,6 @@
             <mxPoint x="300" y="225" as="sourcePoint"/>
             <mxPoint x="270" y="245" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="kPWo9Jy2WzOMJjkFZzy3-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="125" width="10" height="10" as="geometry"/>
-        </mxCell>
-        <mxCell id="kPWo9Jy2WzOMJjkFZzy3-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="135" width="10" height="10" as="geometry"/>
         </mxCell>
         <mxCell id="kPWo9Jy2WzOMJjkFZzy3-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="850" y="410" width="10" height="10" as="geometry"/>
