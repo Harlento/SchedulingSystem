@@ -1,1 +1,21 @@
-<mxfile host="www.draw.io" modified="2020-02-15T17:58:44.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" version="12.7.0" etag="ed1ZojMNMfdDHyuelPQk" type="github"><diagram id="5JM6FowaKauea7_hN6Q8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-15T18:09:16.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" etag="3zopNK28xIPQWKWs1yy0" version="12.7.0" type="github" pages="2">
+  <diagram id="5JM6FowaKauea7_hN6Q8" name="12.1: Display Staff Member&#39;s Shifts">
+    <mxGraphModel dx="1278" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="B5SshkgnnCapBhUbWGyb-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="80" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-13RusbOVHIpetFADiNd" name="12.2: Display Shift Details">
+    <mxGraphModel dx="1278" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="dOtzAtaVa_kCtirAbSKt-0"/>
+        <mxCell id="dOtzAtaVa_kCtirAbSKt-1" parent="dOtzAtaVa_kCtirAbSKt-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
