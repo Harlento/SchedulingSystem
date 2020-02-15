@@ -1,1 +1,16 @@
-<mxfile host="www.draw.io" modified="2020-02-15T22:13:54.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" version="12.7.0" etag="t-q3yuTq6G0e-wKB9abw" type="github"><diagram id="JmOg30HXB9B3NVdM0MtZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-15T22:57:14.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="GRKLj6Hhf4uM0Cpf08FB" version="12.7.0" type="github">
+  <diagram id="JmOg30HXB9B3NVdM0MtZ" name="Staff Information">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="CAzlAyRQUTipFyyGu9ve-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="490" height="450" as="geometry"/>
+        </mxCell>
+        <mxCell id="CAzlAyRQUTipFyyGu9ve-2" value="&lt;h1&gt;Staff Information:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Name:&lt;/b&gt;&amp;nbsp;Frank Workman&lt;/p&gt;&lt;p&gt;&lt;b&gt;Status:&lt;/b&gt;&amp;nbsp;Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;Address:&lt;/b&gt;&amp;nbsp;321 Example St.&lt;/p&gt;&lt;p&gt;&lt;b&gt;City:&lt;/b&gt;&amp;nbsp;Lethbridge&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Provide Personal Care:&lt;/b&gt;&lt;span&gt;&amp;nbsp;Yes&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Drive:&lt;/b&gt;&amp;nbsp;Yes&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Work with Children: &lt;/b&gt;No&lt;/p&gt;&lt;p&gt;&lt;b&gt;User Type: &lt;/b&gt;Worker&lt;/p&gt;&lt;p&gt;&lt;b&gt;Availability:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Sunday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Monday: 9:00 AM - 3:00 PM&lt;/p&gt;&lt;p&gt;Tuesday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Wednesday: 9:00 AM - 5:00 PM&lt;/p&gt;&lt;p&gt;Thursday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Friday: 12:00 PM - 9:00 PM&lt;/p&gt;&lt;p&gt;Saturday: 12:00 PM - 5:00 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt;&amp;nbsp;Works well with older clients, but does not work well with children.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="480" height="410" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
