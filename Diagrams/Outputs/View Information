@@ -1,14 +1,31 @@
-<mxfile host="www.draw.io" modified="2020-02-15T22:57:14.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="GRKLj6Hhf4uM0Cpf08FB" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-16T02:31:43.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="ocXTNIWP69r8-3Qp0jcZ" version="12.7.0" type="github" pages="2">
   <diagram id="JmOg30HXB9B3NVdM0MtZ" name="Staff Information">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="CAzlAyRQUTipFyyGu9ve-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="140" width="490" height="450" as="geometry"/>
+          <mxGeometry x="270" y="140" width="570" height="480" as="geometry"/>
         </mxCell>
-        <mxCell id="CAzlAyRQUTipFyyGu9ve-2" value="&lt;h1&gt;Staff Information:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Name:&lt;/b&gt;&amp;nbsp;Frank Workman&lt;/p&gt;&lt;p&gt;&lt;b&gt;Status:&lt;/b&gt;&amp;nbsp;Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;Address:&lt;/b&gt;&amp;nbsp;321 Example St.&lt;/p&gt;&lt;p&gt;&lt;b&gt;City:&lt;/b&gt;&amp;nbsp;Lethbridge&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Provide Personal Care:&lt;/b&gt;&lt;span&gt;&amp;nbsp;Yes&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Drive:&lt;/b&gt;&amp;nbsp;Yes&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Work with Children: &lt;/b&gt;No&lt;/p&gt;&lt;p&gt;&lt;b&gt;User Type: &lt;/b&gt;Worker&lt;/p&gt;&lt;p&gt;&lt;b&gt;Availability:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Sunday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Monday: 9:00 AM - 3:00 PM&lt;/p&gt;&lt;p&gt;Tuesday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Wednesday: 9:00 AM - 5:00 PM&lt;/p&gt;&lt;p&gt;Thursday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Friday: 12:00 PM - 9:00 PM&lt;/p&gt;&lt;p&gt;Saturday: 12:00 PM - 5:00 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt;&amp;nbsp;Works well with older clients, but does not work well with children.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="160" width="480" height="410" as="geometry"/>
+        <mxCell id="CAzlAyRQUTipFyyGu9ve-2" value="&lt;h1&gt;Staff Information:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Name:&lt;/b&gt;&amp;nbsp;Frank Workman&lt;/p&gt;&lt;p&gt;&lt;b&gt;Status:&lt;/b&gt;&amp;nbsp;Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;Address:&lt;/b&gt;&amp;nbsp;321 Example St.&lt;/p&gt;&lt;p&gt;&lt;b&gt;City:&lt;/b&gt;&amp;nbsp;Lethbridge&lt;/p&gt;&lt;p&gt;&lt;b&gt;Phone Number:&lt;/b&gt;&amp;nbsp;123-321-4321&lt;/p&gt;&lt;p&gt;&lt;b&gt;Secondary Phone:&lt;/b&gt; 987-789-5432&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Provide Personal Care:&lt;/b&gt;&lt;span&gt;&amp;nbsp;Yes&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Drive:&lt;/b&gt;&amp;nbsp;Yes&lt;/p&gt;&lt;p&gt;&lt;b&gt;Can Work with Children: &lt;/b&gt;No&lt;/p&gt;&lt;p&gt;&lt;b&gt;User Type: &lt;/b&gt;Worker&lt;/p&gt;&lt;p&gt;&lt;b&gt;Availability:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Sunday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Monday: 9:00 AM - 3:00 PM&lt;/p&gt;&lt;p&gt;Tuesday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Wednesday: 9:00 AM - 5:00 PM&lt;/p&gt;&lt;p&gt;Thursday: N/A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Friday: 12:00 PM - 9:00 PM&lt;/p&gt;&lt;p&gt;Saturday: 12:00 PM - 5:00 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt;&amp;nbsp;Works well with older clients, but does not work well with children.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="460" height="460" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iXNVu9s-J82fm4xeWjIT" name="Client Information">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="qX3ugg_WOVg65v7wZH83-0"/>
+        <mxCell id="qX3ugg_WOVg65v7wZH83-1" parent="qX3ugg_WOVg65v7wZH83-0"/>
+        <mxCell id="qX3ugg_WOVg65v7wZH83-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qX3ugg_WOVg65v7wZH83-1">
+          <mxGeometry x="100" y="80" width="570" height="420" as="geometry"/>
+        </mxCell>
+        <mxCell id="qX3ugg_WOVg65v7wZH83-3" value="&lt;h1&gt;Client Information:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Name:&lt;/b&gt;&amp;nbsp;John Client&lt;/p&gt;&lt;p&gt;&lt;b&gt;Status:&lt;/b&gt;&amp;nbsp;Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;Address:&lt;/b&gt;&amp;nbsp;123 Example St.&lt;/p&gt;&lt;p&gt;&lt;b&gt;City:&lt;/b&gt;&amp;nbsp;Lethbridge&lt;/p&gt;&lt;p&gt;&lt;b&gt;Phone Number:&lt;/b&gt;&lt;span&gt;&amp;nbsp;403-890-0987&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Secondary Phone:&lt;/b&gt;&amp;nbsp;403-675-5678&lt;/p&gt;&lt;p&gt;&lt;b&gt;Group Home: &lt;/b&gt;N/A&lt;/p&gt;&lt;p&gt;&lt;b&gt;Hours per Month: &lt;/b&gt;40&lt;/p&gt;&lt;p&gt;&lt;b&gt;Guardian Information:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Name: &lt;/b&gt;Jane Client&lt;/p&gt;&lt;p&gt;&lt;b&gt;Phone Number: &lt;/b&gt;320-230-0232&lt;/p&gt;&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt;&amp;nbsp;He is a swell Guy.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="qX3ugg_WOVg65v7wZH83-1">
+          <mxGeometry x="120" y="100" width="460" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="h25ROCUz_QpxKH5EomOF-1" value="Edit Information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qX3ugg_WOVg65v7wZH83-1">
+          <mxGeometry x="336.25" y="460" width="97.5" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
