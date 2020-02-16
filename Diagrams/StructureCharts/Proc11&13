@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-16T04:04:40.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="oGYAIrEx_cLrRdLq1GI3" version="12.7.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-16T04:50:55.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="_AdUmV3okqEQ5P_H8mcd" version="12.7.0" type="github" pages="2">
   <diagram id="qooImPmq5FBk4yctZrN_" name="sc11">
-    <mxGraphModel dx="1233" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1433" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -186,7 +186,7 @@
         <mxCell id="4xP5WEG1mf3MZPin1hNz-45" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" source="4xP5WEG1mf3MZPin1hNz-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="490" as="sourcePoint"/>
-            <mxPoint x="590" y="510" as="targetPoint"/>
+            <mxPoint x="600" y="520" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="4xP5WEG1mf3MZPin1hNz-46" value="11.2.2&lt;br&gt;Prepare statement" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
@@ -198,7 +198,7 @@
         <mxCell id="4xP5WEG1mf3MZPin1hNz-48" value="Shift details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="475" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4xP5WEG1mf3MZPin1hNz-49" value="Shift specifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="4xP5WEG1mf3MZPin1hNz-49" value="Shift details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="500" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="4xP5WEG1mf3MZPin1hNz-50" value="" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
