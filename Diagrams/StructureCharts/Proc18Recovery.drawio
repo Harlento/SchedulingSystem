@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-16T01:54:13.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="uxYzdGnnBle6jxF-AVrJ" version="12.7.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-16T02:49:28.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="-kEiTcpx_hhhvESv_mYw" version="12.7.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="18.1 Rebuild database">
-    <mxGraphModel dx="677" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
