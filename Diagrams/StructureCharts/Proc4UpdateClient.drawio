@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-16T02:40:25.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="C2L9GPfOj_ikqzO3NH0L" version="12.7.0" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-02-16T03:31:54.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="T5-Z3YcFTRTIT8moxwe9" version="12.7.0" type="github" pages="4">
   <diagram id="3hFOW5Z3R_mzYnu1O9PT" name="4.1: Display Client Selection Screen">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,12 +74,6 @@
         </mxCell>
         <mxCell id="a53Tn5eMTCfNmm8YMm1Z-1" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="120" width="10" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="a53Tn5eMTCfNmm8YMm1Z-6" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-jC7UEGRpU7TpvFKTlhZ-1" target="a53Tn5eMTCfNmm8YMm1Z-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="130" as="sourcePoint"/>
-            <mxPoint x="390" y="360" as="targetPoint"/>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
