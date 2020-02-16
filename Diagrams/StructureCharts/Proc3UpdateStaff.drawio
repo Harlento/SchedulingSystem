@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-16T00:52:02.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="yb2r-ww-PQW5WExy9Uhm" version="12.7.0" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-02-16T01:04:00.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="zae7MhhGiCmG9fKMorsz" version="12.7.0" type="github" pages="4">
   <diagram id="AOQPVbwdmGProStwQBQa" name="3.1: Display Staff Selection Screen">
     <mxGraphModel dx="813" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -285,7 +285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V8eBXQyPKRl3R5xpfu_6" name="3.4: Update Staff Record">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Snnv6ZvGX3xkhAON8tDr-0"/>
         <mxCell id="Snnv6ZvGX3xkhAON8tDr-1" parent="Snnv6ZvGX3xkhAON8tDr-0"/>
@@ -330,6 +330,30 @@
               <mxPoint x="400" y="160"/>
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="47nk2ZA5CPdNqlpQ7rRx-0" value="" style="endArrow=classic;html=1;" edge="1" parent="Snnv6ZvGX3xkhAON8tDr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524.76" y="215.5" as="sourcePoint"/>
+            <mxPoint x="550" y="256" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47nk2ZA5CPdNqlpQ7rRx-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Snnv6ZvGX3xkhAON8tDr-1">
+          <mxGeometry x="520" y="210.5" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="47nk2ZA5CPdNqlpQ7rRx-2" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;Updated &lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Information &lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Sent to Table&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="Snnv6ZvGX3xkhAON8tDr-1">
+          <mxGeometry x="480" y="205.5" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ywHRka9gwUGfM2U2JTPI-0" value="" style="endArrow=classic;html=1;" edge="1" parent="Snnv6ZvGX3xkhAON8tDr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="231" as="sourcePoint"/>
+            <mxPoint x="550" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywHRka9gwUGfM2U2JTPI-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="Snnv6ZvGX3xkhAON8tDr-1">
+          <mxGeometry x="580" y="228" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="ywHRka9gwUGfM2U2JTPI-3" value="Confirmation is sent back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="Snnv6ZvGX3xkhAON8tDr-1">
+          <mxGeometry x="580" y="190.5" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
