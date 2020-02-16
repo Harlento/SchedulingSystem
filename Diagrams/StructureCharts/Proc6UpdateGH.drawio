@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-16T03:01:13.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="UaU7N5YaZLive2c99FwP" version="12.7.0" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-02-16T03:03:15.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="LZGkAyH3tGug7eSarALV" version="12.7.0" type="github" pages="3">
   <diagram id="Bx6rvehUoLZO955_rD8m" name="6.1: Display GH Selection Screen">
     <mxGraphModel dx="918" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,21 +86,6 @@
             <mxPoint x="214.5" y="330" as="sourcePoint"/>
             <mxPoint x="214.5" y="380" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GRMvZ2hlrFzyxpIoFRWS-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
-          <mxGeometry x="40" y="40" width="10" height="10" as="geometry"/>
-        </mxCell>
-        <mxCell id="GRMvZ2hlrFzyxpIoFRWS-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
-          <mxGeometry x="50" y="50" width="10" height="10" as="geometry"/>
-        </mxCell>
-        <mxCell id="GRMvZ2hlrFzyxpIoFRWS-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
-          <mxGeometry x="60" y="60" width="10" height="10" as="geometry"/>
-        </mxCell>
-        <mxCell id="GRMvZ2hlrFzyxpIoFRWS-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
-          <mxGeometry x="70" y="70" width="10" height="10" as="geometry"/>
-        </mxCell>
-        <mxCell id="GRMvZ2hlrFzyxpIoFRWS-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
-          <mxGeometry x="80" y="80" width="10" height="10" as="geometry"/>
         </mxCell>
         <mxCell id="GRMvZ2hlrFzyxpIoFRWS-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="BQkyG8N_VDIgJS5VGbaI-1">
           <mxGeometry x="470" y="160" width="10" height="10" as="geometry"/>
