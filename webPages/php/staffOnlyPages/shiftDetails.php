@@ -10,6 +10,8 @@
 
         <?php
 
+            session_start();
+
             //Verify user
 
             //Include header
@@ -23,6 +25,8 @@
 
             //Anchor back to view schedule page this is only a placeholder the proper path will have to be defined according to the directory structure
             printf("<a href='viewSched.php'></a>");
+
+            //Include footer
 
         ?>
 

@@ -16,7 +16,8 @@
             //Possibly a mobile specific navbar include as well
 
             //Calendar goes here
-            
+
+            //Include footer
 
         ?>
 
