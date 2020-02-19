@@ -14,6 +14,11 @@
 
             //Verify creddentials
 
+            //Include header
+
+            //Include navbar
+            //Potentially include mobile navbar
+
             if(isset($_SESSION['userType']))
             {
 
@@ -34,6 +39,9 @@
 
                         ");
 
+
+                        //Include footer
+
                         break;
                     case "Bookkeeper":
 
@@ -43,6 +51,8 @@
                             <a href=''></a>
 
                         ");
+
+                        //Include footer
 
                         break;
                     case "Coordinator":
@@ -59,6 +69,8 @@
                             <a href=''></a>
 
                         ");
+
+                        //Include footer
 
                         break;
                         //possible default for if something goes wrong an error message could be displayed

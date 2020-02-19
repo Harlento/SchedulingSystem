@@ -10,6 +10,13 @@
 
         <?php
 
+            session_start();
+
+            //Include header
+
+            //Include navbar
+            //Potentially include mobile navbar
+
             printf("
                 
                 <form>
@@ -19,6 +26,8 @@
                 </form>
 
             ");
+
+            //Include footer
 
         ?>
 
