@@ -8,15 +8,10 @@ session_start();
  *  TODO:        -Test functionality
  */
 
-function verLogin(){
+function verLogin(){ // If user is logged in, nothing happens. If they are not, they are thrown back to login page.
     if(isset($_SESSION['loginID']) == false) {
         header('Location: http://schedule.edenbridge.com/index.php');
     }
 }
-
-
-
-
-
 
 ?>
