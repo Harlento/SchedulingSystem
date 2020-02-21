@@ -1,69 +1,68 @@
-
 <html>
 
-<head>
+    <head>
 
-    <title>Edit Client Information</title>
+        <title>Edit Client Information</title>
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <?php
+        <?php
 
-    printf("
+        printf("
 
-            <h1>Edit Client</h1>
+                <h1>Edit Client</h1>
 
-            <form action=''>
+                <form action=''>
 
-                ID: <br /><br />
-
-                First Name:
-                    <input type='text' name='' value=''>
-                Last Name:
-                    <input type='text' name='' value=''><br /><br />
-
-                Full Address:
-                    <input type='text' name='' value=''>
-                City:
-                    <input type='text' name='' value=''><br /><br />
-
-                Primary Phone Number:
-                    <input type='text' name='' value=''>
-                Secondary Phone Number:
-                    <input type='text' name='' value=''><br /><br />
-
-                Group Home:
-                    <select name=''>
-                        <option></option>
-                    </select><br /><br />
-
-                Hours Per Month:
-                    <input type='text' name='' value=''><br /><br /><br />
-
-                Guardian:<br /><br />
+                    ID: <br /><br />
 
                     First Name:
                         <input type='text' name='' value=''>
                     Last Name:
                         <input type='text' name='' value=''><br /><br />
 
-                    Phone Number:
+                    Full Address:
+                        <input type='text' name='' value=''>
+                    City:
+                        <input type='text' name='' value=''><br /><br />
+
+                    Primary Phone Number:
+                        <input type='text' name='' value=''>
+                    Secondary Phone Number:
+                        <input type='text' name='' value=''><br /><br />
+
+                    Group Home:
+                        <select name=''>
+                            <option></option>
+                        </select><br /><br />
+
+                    Hours Per Month:
                         <input type='text' name='' value=''><br /><br /><br />
 
-                    Notes:
-                        <textarea name=''>
-                        </textarea><br /><br />
+                    Guardian:<br /><br />
 
-                <input type='submit' value='Submit'>
+                        First Name:
+                            <input type='text' name='' value=''>
+                        Last Name:
+                            <input type='text' name='' value=''><br /><br />
 
-            </form>
+                        Phone Number:
+                            <input type='text' name='' value=''><br /><br /><br />
 
-        ");
+                        Notes:
+                            <textarea name=''>
+                            </textarea><br /><br />
 
-    ?>
+                    <input type='submit' value='Submit'>
 
-</body>
+                </form>
+
+            ");
+
+        ?>
+
+    </body>
 
 </html>
