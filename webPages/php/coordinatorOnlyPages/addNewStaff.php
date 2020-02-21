@@ -1,109 +1,108 @@
-
 <html>
 
-<head>
+    <head>
 
-    <title>Add New Staff Member</title>
+        <title>Add New Staff Member</title>
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <?php
+        <?php
 
-        printf("
-            
-            <h1>Add New Staff Member</h1>
+            printf("
 
-            <form action=''>
+                <h1>Add New Staff Member</h1>
 
-                First Name:
-                    <input type='text' name='' value=''>
-                Last Name:
-                    <input type='text' name='' value=''><br /><br />
+                <form action=''>
 
-                Full Address:
-                    <input type='text' name='' value=''>
-                City:
-                    <input type='text' name='' value=''><br /><br />
+                    First Name:
+                        <input type='text' name='' value=''>
+                    Last Name:
+                        <input type='text' name='' value=''><br /><br />
 
-                Primary Phone Number:
-                    <input type='text' name='' value=''>
-                Secondary Phone Number:
-                    <input type='text' name='' value=''><br /><br />
+                    Full Address:
+                        <input type='text' name='' value=''>
+                    City:
+                        <input type='text' name='' value=''><br /><br />
 
-                User Type:
-                    <select>
-                        <option>
-                    </select><br /><br />
+                    Primary Phone Number:
+                        <input type='text' name='' value=''>
+                    Secondary Phone Number:
+                        <input type='text' name='' value=''><br /><br />
 
-                User Name:
-                    <input type='text' name='' value=''>
-                Password:
-                    <input type='text' name='' value=''><br /><br />
+                    User Type:
+                        <select>
+                            <option>
+                        </select><br /><br />
 
-                Availability: <br /><br />
-                    Sunday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
-                    Monday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
+                    User Name:
+                        <input type='text' name='' value=''>
+                    Password:
+                        <input type='text' name='' value=''><br /><br />
 
-                    Tuesday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
+                    Availability: <br /><br />
+                        Sunday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
+                        Monday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
 
-                     Wednesday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
+                        Tuesday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
 
-                     Thursday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
+                         Wednesday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
 
-                     Friday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
+                         Thursday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
 
-                     Saturday:
-                        Start:
-                            <input type='time' name='' value=''>
-                        End:
-                            <input type='time' name='' value=''><br /><br />
+                         Friday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
 
-                Able to Drive:
-                    <input type='checkbox' name='' value=''>
-                Notes:
-                    <textarea name=''>
-                    </textarea><br /><br />
+                         Saturday:
+                            Start:
+                                <input type='time' name='' value=''>
+                            End:
+                                <input type='time' name='' value=''><br /><br />
 
-                Can Provide Personal Care:
-                    <input type='checkbox' name='' value=''><br /><br />
+                    Able to Drive:
+                        <input type='checkbox' name='' value=''>
+                    Notes:
+                        <textarea name=''>
+                        </textarea><br /><br />
 
-                Can Work With Children:
-                    <input type='checkbox' name='' value=''><br /><br />
+                    Can Provide Personal Care:
+                        <input type='checkbox' name='' value=''><br /><br />
 
-                <input type='submit' value='Submit'>
+                    Can Work With Children:
+                        <input type='checkbox' name='' value=''><br /><br />
 
-            </form>
+                    <input type='submit' value='Submit'>
 
-        ");
+                </form>
 
-    ?>
+            ");
 
-</body>
+        ?>
+
+    </body>
 
 </html>
