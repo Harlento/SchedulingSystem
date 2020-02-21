@@ -33,14 +33,14 @@
                 User Type:
                     <select>
                         <option>
-                    </select><br />
+                    </select><br /><br />
 
                 User Name:
                     <input type='text' name='' value=''>
                 Password:
                     <input type='text' name='' value=''><br /><br />
 
-                Availability: <br />
+                Availability: <br /><br />
                     Sunday:
                         Start:
                             <input type='time' name='' value=''>
@@ -81,6 +81,18 @@
                             <input type='time' name='' value=''>
                         End:
                             <input type='time' name='' value=''><br /><br />
+
+                Able to Drive:
+                    <input type='checkbox' name='' value=''>
+                Notes:
+                    <textarea name=''>
+                    </textarea><br /><br />
+
+                Can Provide Personal Care:
+                    <input type='checkbox' name='' value=''><br /><br />
+
+                Can Work With Children:
+                    <input type='checkbox' name='' value=''><br /><br />
 
                 <input type='submit' value='Submit'>
 
