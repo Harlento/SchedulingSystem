@@ -1,36 +1,35 @@
-
 <html>
 
-<head>
+    <head>
 
-    <title>Add Department</title>
+        <title>Add Department</title>
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <?php
+        <?php
 
-        printf("
+            printf("
 
-            <h1>Add Department</h1>
+                <h1>Add Department</h1>
 
-            Department Code:
-                <input type='text' name='' value=''><br /><br />
-            
-            Department Name:
-                <input type='text' name='' value=''><br /><br />
+                Department Code:
+                    <input type='text' name='' value=''><br /><br />
 
-            Department Description:
-                <textarea>
-                </textarea><br /><br />
+                Department Name:
+                    <input type='text' name='' value=''><br /><br />
 
-            <input type='submit' value='Submit'>
+                Department Description:
+                    <textarea>
+                    </textarea><br /><br />
 
-        ");
+                <input type='submit' value='Submit'>
 
-    ?>
+            ");
 
-</body>
+        ?>
+
+    </body>
 
 </html>
