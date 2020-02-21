@@ -1,37 +1,36 @@
-
 <html>
 
-<head>
+    <head>
 
-    <title>Add Group Home</title>
+        <title>Add Group Home</title>
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <?php
+        <?php
 
-    printf("
+        printf("
 
-            <h1>Add Group Home</h1>
+                <h1>Add Group Home</h1>
 
-            ID: <br /><br />
+                ID: <br /><br />
 
-            Group Home Name:
-                <input type='text' name='' value=''><br /><br />
+                Group Home Name:
+                    <input type='text' name='' value=''><br /><br />
 
-            Group Home Address:
-                <input type='text' name='' value=''><br /><br />
+                Group Home Address:
+                    <input type='text' name='' value=''><br /><br />
 
-            Phone Number:
-                <input type='text' name='' value=''><br /><br />
+                Phone Number:
+                    <input type='text' name='' value=''><br /><br />
 
-            <input type='submit' value='Submit'>
+                <input type='submit' value='Submit'>
 
-        ");
+            ");
 
-    ?>
+        ?>
 
-</body>
+    </body>
 
 </html>
