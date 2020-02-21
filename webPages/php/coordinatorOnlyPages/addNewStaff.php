@@ -12,6 +12,8 @@
     <?php
 
         printf("
+            
+            <h1>Add New Staff Member</h1>
 
             <form action=''>
 
