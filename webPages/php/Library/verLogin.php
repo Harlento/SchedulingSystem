@@ -14,4 +14,4 @@ function verLogin(){ // If user is logged in, nothing happens. If they are not, 
     }
 }
 
-5
+?>
