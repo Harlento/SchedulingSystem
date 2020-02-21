@@ -30,19 +30,10 @@
             Shift Date:
                 <input type='date' name='' value=''><br /><br />
 
-            Scheduled Start:
-                <input type='time' name='' value=''>
-            Scheduled End:
+            Start Time:
                 <input type='time' name='' value=''><br /><br />
 
-            Claimed Start:
-                <input type='time' name='' value=''>
-            Claimed End:
-                <input type='time' name='' value=''><br /><br />
-
-            Approved Start:
-                <input type='time' name='' value=''>
-            Approved End:
+            End Time:
                 <input type='time' name='' value=''><br /><br />
 
             Search for Staff:
