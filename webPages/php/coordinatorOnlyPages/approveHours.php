@@ -1,26 +1,25 @@
-
 <html>
 
-<head>
+    <head>
 
-    <title>Approve Hours</title>
+        <title>Approve Hours</title>
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <?php
+        <?php
 
-        printf("
+            printf("
 
-            <h1>Approve Hours</h1>
+                <h1>Approve Hours</h1>
 
-        ");
+            ");
 
-        //table here
+            //table here
 
-    ?>
+        ?>
 
-</body>
+    </body>
 
 </html>
