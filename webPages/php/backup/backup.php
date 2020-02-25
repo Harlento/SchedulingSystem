@@ -38,7 +38,7 @@
 
     exec("mkdir dir", $output, $return);
 
-    //This could be an issue in certain scenarios this can be inproved if time permits
+    //This could be an issue in certain scenarios this can be improved if time permits
     //If there is no return value the exec function worked properly
     if(!$return)
     {
