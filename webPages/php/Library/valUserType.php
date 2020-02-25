@@ -18,9 +18,8 @@ function checkType($authLevel)
     switch ($authLevel) {
         case "worker": { // Case specified for worker-only pages.
          if ($_SESSION['loginType'] != 'WORKER') {
-            /* Redirect through hidden form with previous page information, append to end of URL error message for
-             * invalid user type.
-             */
+            $prevPage = $_SESSION['page'] . "?message=invalCred";
+
          }
         }
         case "coord": { // Case specified for coordinator-only pages.
