@@ -17,7 +17,7 @@ function displayMessage($errCode) // Processes error code with switch statement
 {
     switch ($errCode) {
         case "invalCred": { // Case specified for invalid credential errors
-            $message = "Insufficent priviledges to view page..";
+            $message = "Insufficent privileges to view page.";
             echo "<script type='text/javascript'> alert($message); </script>";
         }
         case "noLogin": { // Case specified for user not being logged in
