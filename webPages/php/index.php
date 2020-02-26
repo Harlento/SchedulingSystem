@@ -19,7 +19,7 @@
 
             printf("
                 
-                <form action='logIn.php'>
+                <form action='land.php'>
                     <input type='text' name='userName' value='$userName' /><br /><br />
                     <input type='password' name='password' value='' /><br /><br />
                     <input type='submit' value='Login'>
