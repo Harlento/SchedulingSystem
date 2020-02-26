@@ -8,7 +8,6 @@
         $password = $_POST['password'];
 
         $_SESSION['password'] = $password;
-        $_SESSION['legitUser'] = "";
     }
 
     try
@@ -37,7 +36,6 @@
         {
             if (password_verify($password, $hash))
             {
-                $_SESSION['legitUser'] = true;
                 $_SESSION['userType'] = $row['USER_TYPE_CODE'];
             }
             else
