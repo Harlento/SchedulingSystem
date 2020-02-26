@@ -4,7 +4,7 @@ session_start();
  *  File Name:   verLogin.php
  *  Description: Verifies that user is logged in upon entering page restricted to authenticated users.
  *  Date Start:  20/02/2020
- *  Date End:    TBD
+ *  Date End:    26/02/2020
  *  TODO:        -Test functionality
  */
 

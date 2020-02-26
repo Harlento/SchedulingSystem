@@ -5,9 +5,7 @@ session_start();
  *  Description: Verifies the user type of any user, second phase of restricting access to pages.
  *  Date Start:  20/02/2020
  *  Date End:    TBD
- *  TODO:        -Pull user type
- *               -Check against passed variable/authorization level
- *               -Implement redirect w/ invalid entry
+ *  TODO:        -Implement redirect w/ invalid entry
  *               -Test functionality
  */
 
@@ -19,32 +17,49 @@ function checkType($authLevel)
         case "worker": { // Case specified for worker-only pages.
          if ($_SESSION['loginType'] != 'WORKER') {
             $prevPage = $_SESSION['page'] . "?message=invalCred";
-
+             header('Location: ' . $prevPage);
          }
         }
-        case "coord": { // Case specified for coordinator-only pages.
+        case "coordinator": { // Case specified for coordinator-only pages.
             /* Redirect through hidden form with previous page information, append to end of URL error message for
              * invalid user type.
              */
+            if ($_SESSION['loginType'] != 'COORDINATOR') {
+                $prevPage = $_SESSION['page'] . "?message=invalCred";
+                header('Location: ' . $prevPage);
+            }
         }
-        case "superv": { // Case specified for supervisor-only pages.
+        case "supervisor": { // Case specified for supervisor-only pages.
             /* Redirect through hidden form with previous page information, append to end of URL error message for
              * invalid user type.
              */
+            if ($_SESSION['loginType'] != 'SUPERVISOR') {
+                $prevPage = $_SESSION['page'] . "?message=invalCred";
+                header('Location: ' . $prevPage);
+            }
         }
-        case "bookeeper": { // Case specified for bookkeeper-only pages.
+        case "bookkeeper": { // Case specified for bookkeeper-only pages.
             /* Redirect through hidden form with previous page information, append to end of URL error message for
              * invalid user type.
              */
+            if ($_SESSION['loginType'] != 'BOOKKEEPER') {
+                $prevPage = $_SESSION['page'] . "?message=invalCred";
+                header('Location: ' . $prevPage);
+            }
         }
         case "admin": { // Case specified for administrator-only pages. Not used elsewhere presently.
             /* Redirect through hidden form with previous page information, append to end of URL error message for
              * invalid user type.
              */
+            if ($_SESSION['loginType'] != 'ADMIN') {
+                $prevPage = $_SESSION['page'] . "?message=invalCred";
+                header('Location: ' . $prevPage);
+            }
         }
-        default: {
-            /* Force logout with error saying that invalid user type was detected. Include administrator contact.
-             */
+        default: { // Case specified for when no match to the user type is found. Control module in even of session poisoning.
+            session_unset();
+            session_destroy();
+            header('Location: http://schedule.edenbridge.com/index.php?message=badType');  // Holder segment
         }
     }
 }

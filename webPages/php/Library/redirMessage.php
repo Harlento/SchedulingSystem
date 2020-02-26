@@ -15,8 +15,6 @@
  */
 function checkMessage($errCode) // checks for error code and processes w/ switch statement
 {
-
-
     switch ($errCode) {
         case "invalCred": { // Case specified for invalid credential errors
 
@@ -30,9 +28,6 @@ function checkMessage($errCode) // checks for error code and processes w/ switch
         case "badLogin": { // Case specified for a bad login - login page only.
 
         }
-        case "badID": { // Control and countermeasure for an invalid ID
-
-        }
         case "badType": { // Control and countermeasure for bad user type.
 
         }
@@ -42,7 +37,7 @@ function checkMessage($errCode) // checks for error code and processes w/ switch
         case "connTimeout": { // Case specified for database connection timing out.
 
         }
-        case "": { //
+        case "": {
 
         }
         default: {
@@ -52,4 +47,5 @@ function checkMessage($errCode) // checks for error code and processes w/ switch
     }
 }
 header('Location: http://schedule.edenbridge.com/index.php');  // Holder segment
+
 ?>
