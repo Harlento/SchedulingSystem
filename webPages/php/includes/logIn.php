@@ -19,7 +19,7 @@
         //echo "Connection successfull<br />";
         //phpinfo();
 
-        $stm = $conn->prepare("SELECT USER_NAME, USER_PASS, USER_TYPE_CODE, FROM WORKER WHERE USER_NAME = ? ");
+        $stm = $conn->prepare("SELECT USER_NAME, USER_PASS, TYPE_CODE, FROM staff WHERE USER_NAME = ? ");
 
         if (isset($userName))
         {
