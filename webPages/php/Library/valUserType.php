@@ -59,7 +59,7 @@ function checkType($authLevel)
         default: { // Case specified for when no match to the user type is found. Control module in even of session poisoning.
             session_unset();
             session_destroy();
-            header('Location: http://schedule.edenbridge.com/index.php?message=badType');  // Holder segment
+            header('Location: http://schedule.edenbridge.com/index.php?message=badType');
         }
     }
 }
