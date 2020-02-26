@@ -19,6 +19,8 @@
             //Include navbar
             //Potentially include mobile navbar
 
+            include "logIn.php";
+
             if(isset($_SESSION['userType']))
             {
 
@@ -26,16 +28,17 @@
 
                 $userType = $_SESSION['userType'];
 
-
                 switch($userType)
                 {
 
-                    case "Staff":
+                    case "S":
 
                         printf("
 
-                            <a href=''></a>
-                            <a href=''></a>
+                            <div>
+                                <a href=''></a>
+                                <a href=''></a>
+                            </div>
 
                         ");
 
@@ -43,7 +46,8 @@
                         //Include footer
 
                         break;
-                    case "Bookkeeper":
+
+                    case "B":
 
                         printf("
 
@@ -55,7 +59,8 @@
                         //Include footer
 
                         break;
-                    case "Coordinator":
+
+                    case "C":
 
                         printf("
 
@@ -71,6 +76,16 @@
                         ");
 
                         //Include footer
+
+                        break;
+
+                    case "SP":
+
+                        break;
+
+                    default:
+
+                        header("Location: schedule.edenbridge.ca?message=invalidCreds");
 
                         break;
                         //possible default for if something goes wrong an error message could be displayed
