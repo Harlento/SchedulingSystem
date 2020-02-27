@@ -49,10 +49,11 @@
 				//$avail = $_POST['avail'];
 				$notes = $_POST['notes'];
 				
+				$pass = password_hash($pass, PASSWORD_BCRYPT);
+				
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
-
 				
 				$sql = $conn->prepare("INSERT INTO STAFF (TYPE_CODE, USER_NAME, USER_PASS, STAFF_FNAME, STAFF_LNAME, STAFF_PHONE, STAFF_ADDRESS, STAFF_CITY, CAN_CHILD, CAN_PC, CAN_DRIVE, STAFF_AVAIL, STAFF_NOTES)
 				VALUES ('$type', '$uname', '$pass', '$fname', '$lname', '$phone', '$address', '$city', '$child', '$pc', '$drive', '$avail', '$notes')");
