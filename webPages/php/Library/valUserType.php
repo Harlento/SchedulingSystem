@@ -56,7 +56,7 @@ function checkType($authLevel)
                 header('Location: ' . $prevPage);
             }
         }
-        default: { // Case specified for when no match to the user type is found. Control module in even of session poisoning.
+        default: { // Case specified for when no match to the user type is found. Control module in event of session poisoning.
             session_unset();
             session_destroy();
             header('Location: http://schedule.edenbridge.com/index.php?message=badType');
