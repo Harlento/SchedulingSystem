@@ -5,8 +5,7 @@ session_start();
  *  Description: Verifies the user type of any user, second phase of restricting access to pages.
  *  Date Start:  20/02/2020
  *  Date End:    TBD
- *  TODO:        -Implement redirect w/ invalid entry
- *               -Test functionality
+ *  TODO:        -Test functionality
  */
 
 function checkType($authLevel)
@@ -63,6 +62,6 @@ function checkType($authLevel)
         }
     }
 }
-header('Location: http://schedule.edenbridge.com/index.php');  // Holder segment
+
 
 ?>
