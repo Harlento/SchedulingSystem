@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   schedrecshift.php
+ *  Description: Allows coordinators to schedule shifts from a recurring shift record
+ *  Date Start:  27/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -10,6 +19,7 @@
 
         <?php
 
+	    		//If request is submitted, shift records are created
 			if(isset($_POST['submit']))
 			{	
 				print_r($_POST);
@@ -17,6 +27,7 @@
 				$start = strtotime($_POST['start']);
 				$end = strtotime($_POST['end']);
 				
+				//Retrieve recurring shift information for selected department
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
@@ -42,9 +53,7 @@
 					$day = $data['REC_DAY'];
 					
 					$date = $start;
-					$date . "<br>";
 					$last = $end;
-					$last . "<br>";
 					
 					//While the date isn't the correct day of the week, add 1 day
 					while(date('D', $date) != $day)
@@ -70,6 +79,7 @@
 			}
 			else
 			{
+				//Retrieve list of departments to schedule shifts for
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
