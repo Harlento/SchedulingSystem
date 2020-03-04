@@ -1,5 +1,5 @@
 /*  Developer:   Justin Alho
- *  File Name:   addClient.php
+ *  File Name:   addclient.php
  *  Description: Allows coordinators to add new client records into the database
  *  Date Start:  25/02/2020
  *  Date End:    TBD
