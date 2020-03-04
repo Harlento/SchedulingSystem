@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   moddep.php
+ *  Description: Allows coordinators to modify department records
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -13,6 +22,7 @@
 			$name = '';
 			$desc = '';
 		
+	    		//If data is submitted, update the record
 			if(isset($_POST['submit']))
 			{	
 				$code = $_POST['code'];
@@ -33,6 +43,7 @@
 			}
 			else
 			{
+				//The record's information is pulled from the database
 				$code = $_REQUEST['code'];
 				$username = 'Coordinator';
 				$password = 'Password1';
