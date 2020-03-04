@@ -1,3 +1,13 @@
+/*  Developer:   Justin Alho
+ *  File Name:   addstaff.php
+ *  Description: Allows coordinators to add new staff records into the database
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ *		 - Add password complexity
+ */
 <html>
 
     <head>
@@ -30,6 +40,7 @@
 			$sunAvail = '';
 			$notes = '';
 		
+	    		//If data is submitted, it is added to the database
 			if(isset($_POST['submit']))
 			{	
 				$type = $_POST['type'];
@@ -61,6 +72,7 @@
 				$satAvail = $_POST['satSt'] . " - " . $_POST['satEnd'];
 				$notes = $_POST['notes'];
 				
+				//Staff passwords are hashed before being entered into the database
 				$pass = password_hash($pass, PASSWORD_BCRYPT);
 				
 				$username = 'Coordinator';
@@ -79,6 +91,7 @@
 			}
 			else
 			{
+				//Get user type records so that users can choose what type of user they want the new staff to be
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
