@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   addDep.php
+ *  Description: Allows coordinators to add new department records into the database
+ *  Date Start:  23/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -9,7 +18,8 @@
     <body>
 
         <?php
-			$code = '';
+			//When the user submits data, it is added to the database
+	    		$code = '';
 			$name = '';
 			$desc = '';
 		
