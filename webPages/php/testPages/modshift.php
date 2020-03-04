@@ -1,3 +1,15 @@
+/*  Developer:   Justin Alho
+ *  File Name:   modshift.php
+ *  Description: Allows coordinators to modify shifts
+ *  Date Start:  26/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ *		 - Add staff availability checking
+ *		 - Add staff ability checking (gh, children)
+ *		 - Add overtime alerts
+ */
 <html>
 
     <head>
@@ -25,6 +37,7 @@
 			$super = '';
 			$notes = '';
 			
+	    		//If information is submitted, update shift record
 			if(isset($_POST['submit']))
 			{	
 				print_r($_POST);
@@ -59,6 +72,7 @@
 			}
 			else
 			{
+				//retrieve information from database
 				$id = $_REQUEST['id'];
 				$username = 'Coordinator';
 				$password = 'Password1';
