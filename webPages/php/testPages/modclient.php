@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   modclient.php
+ *  Description: Allows coordinators to modify existing client records
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -22,6 +31,7 @@
 			$km = '';
 			$notes = '';
 			
+	    		//If the data has been submitted, the record is updated
 			if(isset($_POST['submit']))
 			{	
 				$id = $_POST['id'];
@@ -52,6 +62,7 @@
 			}
 			else
 			{
+				//Retrieve existing data from database
 				$id = $_REQUEST['id'];
 				$username = 'Coordinator';
 				$password = 'Password1';
