@@ -1,3 +1,13 @@
+/*  Developer:   Justin Alho
+ *  File Name:   modrecshift.php
+ *  Description: Allows coordinators to modify recurring shift records
+ *  Date Start:  27/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ * 		 - Add checking staff availability
+ */
 <html>
 
     <head>
@@ -20,6 +30,7 @@
 			$super = '';
 			$notes = '';
 			
+	    		//If information is submitted, the records are updated
 			if(isset($_POST['submit']))
 			{	
 				$id = $_POST['id'];
@@ -44,6 +55,7 @@
 
 				$sql->execute();
 
+				//As well as updating the recurring shift record itself, all currently scheduled shifts based off of the recurring shift are updated as necessary
 				$shsql = $conn->prepare("UPDATE SHIFT SET DEP_CODE = '$dep', CLIENT_ID = '$client', STAFF_ID = '$staff', SCHEDULED_START = '$start', SCHEDULED_END = '$end', SHIFT_SUPER = '$super', SHIFT_NOTES = '$notes'
 				WHERE REC_ID = '$id' AND STATUS_CODE = 'S'");
 				
@@ -55,6 +67,7 @@
 			}
 			else
 			{
+				//Information is retrieved from the database
 				$id = $_REQUEST['id'];
 				$username = 'Coordinator';
 				$password = 'Password1';
