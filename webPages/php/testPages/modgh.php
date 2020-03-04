@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   modgh.php
+ *  Description: Allows coordinators to modify group home records
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -15,6 +24,7 @@
 			$phone = '';
 			$address = '';
 		
+	    		//If data is submitted, the database record is updated
 			if(isset($_POST['submit']))
 			{	
 				$id = $_POST['id'];
@@ -37,6 +47,7 @@
 			}
 			else
 			{
+				//Information is retrieved from the database
 				$id = $_REQUEST['id'];
 				$username = 'Coordinator';
 				$password = 'Password1';
