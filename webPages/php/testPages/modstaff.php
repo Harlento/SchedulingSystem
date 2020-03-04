@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   modstaff.php
+ *  Description: Allows coordinators to modify staff records
+ *  Date Start:  26/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -46,6 +55,7 @@
 			$satEnd = '';
 			$notes = '';
 			
+	    		//If information is submitted, update staff record
 			if(isset($_POST['submit']))
 			{	
 				$id = $_POST['id'];
@@ -97,6 +107,7 @@
 			}
 			else
 			{
+				//retrieve information from the database
 				$id = $_REQUEST['id'];
 				$username = 'Coordinator';
 				$password = 'Password1';
