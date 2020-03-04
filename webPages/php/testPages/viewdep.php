@@ -1,3 +1,11 @@
+/*  Developer:   Justin Alho
+ *  File Name:   viewdep.php
+ *  Description: Allows coordinators to view department information
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -9,6 +17,7 @@
     <body>
 
         <?php
+	    		//Retrieve department information and display it in a table
 			$username = 'Coordinator';
 			$password = 'Password1';
 			$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
@@ -34,6 +43,7 @@
 				echo "<td>{$data['DEP_CODE']}</td>";
 				echo "<td>{$data['DEP_NAME']}</td>";
 				echo "<td>{$data['DEP_DESC']}</td>";
+				//Option to modify record, links to moddep.php with the code for the selected department
 				echo "<td><a href='moddep.php?code={$data['DEP_CODE']}'>modify</a></td>";
 				echo "</tr>";
 			}
