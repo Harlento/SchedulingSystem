@@ -1,5 +1,5 @@
 /*  Developer:   Justin Alho
- *  File Name:   addDep.php
+ *  File Name:   adddep.php
  *  Description: Allows coordinators to add new department records into the database
  *  Date Start:  23/02/2020
  *  Date End:    TBD
