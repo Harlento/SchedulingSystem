@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   viewrecshift.php
+ *  Description: Allows coordinators to view recurring shift information
+ *  Date Start:  27/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add user authentication
+ *		 - Add sorting, filtering
+ */
 <html>
 
     <head>
@@ -9,6 +18,7 @@
     <body>
 
         <?php
+	    		//Retrieve required information from database, display it in a table
 			$username = 'Coordinator';
 			$password = 'Password1';
 			$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
@@ -53,6 +63,7 @@
 				else
 					echo "<td>No</td>";
 				echo "<td>{$data['REC_NOTES']}</td>";
+				//Option to modify recurring shift, links to modrecshift.php with the ID of the recurring shift record
 				echo "<td><a href='modrecshift.php?id={$data['REC_ID']}'>modify</a></td>";
 				echo "</tr>";
 			}
