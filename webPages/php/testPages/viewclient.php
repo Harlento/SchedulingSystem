@@ -62,6 +62,7 @@
 				echo "<td>{$data['CLIENT_MAX_HOURS']}</td>";
 				echo "<td>{$data['CLIENT_KM']}</td>";
 				echo "<td>{$data['CLIENT_NOTES']}</td>";
+				//Option to modify client record, links to modclient.php with the selected client's ID
 				echo "<td><a href='modclient.php?id={$data['CLIENT_ID']}'>modify</a></td>";
 				echo "</tr>";
 			}
