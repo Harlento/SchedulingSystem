@@ -21,7 +21,13 @@
 			$child = '';
 			$pc = '';
 			$drive = '';
-			$avail = '';
+			$sunAvail = '';
+			$monAvail = '';
+			$tueAvail = '';
+			$wedAvail = '';
+			$sunAvail = '';
+			$sunAvail = '';
+			$sunAvail = '';
 			$notes = '';
 		
 			if(isset($_POST['submit']))
@@ -46,7 +52,13 @@
 					$drive = 1;
 				else
 					$drive = 0;
-				//$avail = $_POST['avail'];
+				$sunAvail = $_POST['sunSt'] . " - " . $_POST['sunEnd'];
+				$monAvail = $_POST['monSt'] . " - " . $_POST['monEnd'];
+				$tueAvail = $_POST['tueSt'] . " - " . $_POST['tueEnd'];
+				$wedAvail = $_POST['wedSt'] . " - " . $_POST['wedEnd'];
+				$thuAvail = $_POST['thuSt'] . " - " . $_POST['thuEnd'];
+				$friAvail = $_POST['friSt'] . " - " . $_POST['friEnd'];
+				$satAvail = $_POST['satSt'] . " - " . $_POST['satEnd'];
 				$notes = $_POST['notes'];
 				
 				$pass = password_hash($pass, PASSWORD_BCRYPT);
@@ -54,9 +66,10 @@
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
+
 				
-				$sql = $conn->prepare("INSERT INTO STAFF (TYPE_CODE, USER_NAME, USER_PASS, STAFF_FNAME, STAFF_LNAME, STAFF_PHONE, STAFF_ADDRESS, STAFF_CITY, CAN_CHILD, CAN_PC, CAN_DRIVE, STAFF_AVAIL, STAFF_NOTES)
-				VALUES ('$type', '$uname', '$pass', '$fname', '$lname', '$phone', '$address', '$city', '$child', '$pc', '$drive', '$avail', '$notes')");
+				$sql = $conn->prepare("INSERT INTO STAFF (TYPE_CODE, USER_NAME, USER_PASS, STAFF_FNAME, STAFF_LNAME, STAFF_PHONE, STAFF_ADDRESS, STAFF_CITY, CAN_CHILD, CAN_PC, CAN_DRIVE, SUN_AVAIL, MON_AVAIL, TUE_AVAIL, WED_AVAIL, THU_AVAIL, FRI_AVAIL, SAT_AVAIL, STAFF_NOTES)
+				VALUES ('$type', '$uname', '$pass', '$fname', '$lname', '$phone', '$address', '$city', '$child', '$pc', '$drive', '$sunAvail', '$monAvail', '$tueAvail', '$wedAvail', '$thuAvail', '$friAvail', '$satAvail', '$notes')");
 				
 				$sql->execute();
 				
@@ -152,6 +165,7 @@
 
 						Able to Drive:
 							<input type='checkbox' name='drive'>
+							
 						Notes:
 							<textarea name='notes'>
 							</textarea><br /><br />
