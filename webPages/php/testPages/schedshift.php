@@ -1,3 +1,15 @@
+/*  Developer:   Justin Alho
+ *  File Name:   schedshift.php
+ *  Description: Allows coordinators to create new shift and recurring shift records
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ *		 - Add staff availability checking
+ *		 - Add staff ability checking (gh, children)
+ *		 - Add overtime alerts
+ */
 <html>
 
     <head>
@@ -19,8 +31,10 @@
 			$super = '';
 			$notes = '';
 		
+	    		//If information is sent, records will be added
 			if(isset($_POST['submit']))
 			{	
+				//If user declares shift as a recurring shift, create a recurring shift record
 				if(isset($_POST['rec']))
 				{
 					$dep = $_POST['dep'];
@@ -49,6 +63,7 @@
 					
 					echo "Shift scheduled successfully.<br /><br />";
 				}
+				//If user has not declared it as a recurring shift, add new shift record
 				else
 				{
 					$dep = $_POST['dep'];
@@ -77,6 +92,7 @@
 					echo "Shift scheduled successfully.<br /><br />";
 				}
 			}
+	    		//Retrieve information from the database to schedule a new shift
 			else
 			{
 				$username = 'Coordinator';
