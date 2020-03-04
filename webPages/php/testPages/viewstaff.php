@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   viewstaff.php
+ *  Description: Allows coordinators to view staff information
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add user authentication
+ *		 - Add sorting, filtering
+ */
 <html>
 
     <head>
@@ -9,6 +18,7 @@
     <body>
 
         <?php
+	    		//Retrieve required info from database, display in table
 			$username = 'Coordinator';
 			$password = 'Password1';
 			$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
@@ -65,6 +75,7 @@
 				else
 					echo "<td>No</td>";
 				echo "<td>{$data['STAFF_NOTES']}</td>";
+				//Option to modify staff record, links to modstaff.php with the selected staff member's ID
 				echo "<td><a href='modstaff.php?id={$data['STAFF_ID']}'>modify</a></td>";
 				echo "</tr>";
 			}
