@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   viewclient.php
+ *  Description: Allows coordinators to view client information
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add user authentication
+ *		 - Add sorting, filtering
+ */
 <html>
 
     <head>
@@ -9,6 +18,7 @@
     <body>
 
         <?php
+	    		//Retrieve client, group home, and status information and display it in a table
 			$username = 'Coordinator';
 			$password = 'Password1';
 			$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
