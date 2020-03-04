@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   addgh.php
+ *  Description: Allows coordinators to add new group home records into the database
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -13,7 +22,8 @@
 			$name = '';
 			$phone = '';
 			$address = '';
-		
+	    
+			//If the user submits data, it is added into the database
 			if(isset($_POST['submit']))
 			{	
 				$super = $_POST['super'];
@@ -28,7 +38,10 @@
 				$sql = $conn->prepare("INSERT INTO 	group_home (STAFF_ID, GH_NAME, GH_PHONE, GH_ADDRESS) VALUES ('$super', '$name', '$phone', '$address')");
 				
 				$sql->execute();
-
+				
+				//As well as a new group home record, a new department record is also created
+				
+				//The last inserted ID is retrieved and "G" is added to it, so the department for GH with ID 17 would be G17
 				$id = $conn->lastInsertId();
 				$code = 'G' . $id;
 				$desc = 'The department for ' . $name . '.';
@@ -42,6 +55,7 @@
 			}
 			else
 			{
+				//A list of supervisors is retrieved from the staff table so the user can select a supervisor for the group home
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
