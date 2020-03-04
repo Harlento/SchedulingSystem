@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   addClient.php
+ *  Description: Allows coordinators to add new client records into the database
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add data verification
+ *		 - Add user authentication
+ */
 <html>
 
     <head>
@@ -20,6 +29,7 @@
 			$km = '';
 			$notes = '';
 		
+	    		//If the user submits the form, the info is added to the database
 			if(isset($_POST['submit']))
 			{	
 				$gh = $_POST['gh'];
@@ -48,6 +58,7 @@
 			}
 			else
 			{
+				//Retrieve Group Home records to display in dropdown
 				$username = 'Coordinator';
 				$password = 'Password1';
 				$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
