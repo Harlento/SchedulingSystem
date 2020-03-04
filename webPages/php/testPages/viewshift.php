@@ -1,3 +1,12 @@
+/*  Developer:   Justin Alho
+ *  File Name:   viewshift.php
+ *  Description: Allows coordinators to view shift information
+ *  Date Start:  25/02/2020
+ *  Date End:    TBD
+ *  TODO:        - Add CSS
+ *		 - Add user authentication
+ *		 - Add sorting, filtering
+ */
 <html>
 
     <head>
@@ -9,6 +18,7 @@
     <body>
 
         <?php
+	    		//retrieve necessary information from database, display in table
 			$username = 'Coordinator';
 			$password = 'Password1';
 			$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
@@ -61,6 +71,7 @@
 				else
 					echo "<td>No</td>";
 				echo "<td>{$data['SHIFT_NOTES']}</td>";
+				//Option to modify shift record, links to modshift.php with the ID of the selected shift
 				echo "<td><a href='modshift.php?id={$data['SHIFT_ID']}'>modify</a></td>";
 				echo "</tr>";
 			}
