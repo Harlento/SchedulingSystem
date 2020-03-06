@@ -29,7 +29,7 @@
 	foreach ($row as $data)
 	{
 		$addSql = $conn->prepare("UPDATE SHIFT SET STATUS_CODE = 'A', APPROVED_START = '{$data['CLAIMED_START']}', APPROVED_END = '{$data['CLAIMED_END']}'
-		WHERE STAFF_ID = '$id'");
+		WHERE SHIFT_ID = '{$data['SHIFT_ID']}'");
 		
 		$addSql->execute();
 	}
