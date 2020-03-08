@@ -35,7 +35,7 @@
 			
 			.calendar
 			{
-				width: 80%;
+				width: 100%;
 				height: 100%;
 			}
 
@@ -52,6 +52,26 @@
 			a
 			{
 				display: block;
+			}
+			
+			html, body
+			{
+				height: 100%;
+				width: 100%; 
+			}
+			
+			.bodyDiv
+			{
+				height: 100%;
+				width: 100%;
+				text-align: center;
+			}
+			
+			.childBodyDiv
+			{
+				height: 85%;
+				width: 60%;
+				display: inline-block;
 			}
 		</style>
 
@@ -91,6 +111,11 @@
             //Include navbar
 			
 			include "../includes/scripts/navBar.php";
+			
+			print("
+				<div class='bodyDiv'>
+					<div class='childBodyDiv'>
+			");
 
             //This will query the db for the required information
             $username = 'Coordinator';
@@ -105,7 +130,7 @@
             ");
 			
 			
-			//
+			//Executino parameters
 			$statusCode = "S";
 			$staffID = $_SESSION['staffID'];
 			
@@ -134,17 +159,17 @@
 
             //Test print values
 			
-            print($numODays);
-            print($year);
-            print($month);
+           // print($numODays);
+           // print($year);
+            //print($month);
 			
 			//test
-			print("<div id='ele'></div>");
+			//print("<div id='ele'></div>");
 			
 			//test
-            print_r($dataArray);
+            //print_r($dataArray);
 			
-			print($staffID);
+			//print($staffID);
 			
 			
 			$dateComponents = getdate();
@@ -155,7 +180,10 @@
 			//This will print out the calendar
 			echo build_calendar($month,$year,$dateComponents);
 			
-			
+			print("
+					</div>
+				</div>	
+			");
 
 			include "../includes/scripts/footer.php";
 			
@@ -163,17 +191,19 @@
         
 			<script>
 
-					
+				//////////////////////Calendar population script///////////////////////////
+				////////////////////////////////////////////////////////////////
 				var index;
 				
 				//Passing data from PHP to JS
 				var array = <?php echo json_encode($dataArray); ?>;
 				var numODays = <?php echo $numODays; ?>;
 
+				
 				var year = <?php echo $year; ?>;
 				var month = <?php echo $month; ?>;
 				
-
+				//giving the month back it's leading zero if it needs one because JS gets rid of it when passing from PHP
 				if (month < 10)
 				{
 					month = "0" + month;
@@ -226,9 +256,12 @@
 	
 							
 							//Converting shift start time to 12hr format
-							if(startArray[0] < 12)
+							if( (startArray[0] < 12) && (startArray[0] != 0) )
 							{
-								start = startArray[0] + ":" + startArray[1] + "AM";
+								//Getting rid of the leading zero of the first hour
+								var startHour = startArray[0];
+								startHour = parseInt(startHour, 10);
+								start = startHour + ":" + startArray[1] + "AM";
 							}
 							else if(startArray[0] == 12)
 							{
@@ -239,11 +272,19 @@
 								hour = startArray[0] - 12;
 								start = hour + ":" + startArray[1] + "PM";
 							}
+							else if(startArray[0] == 0)
+							{
+								hour = 12;
+								start = hour + ":" + startArray[1] + "AM";
+							}
 							
 							//Converting shift end time to 12hr format
-							if(endArray[0] < 12)
+							if( (endArray[0] < 12)  && (endArray[0] != 0) )
 							{
-								end = endArray[0] + ":" + endArray[1] + "AM";
+								//Removing leading zero
+								var endHour = endArray[0];
+								endHour = parseInt(endHour, 10);
+								end = endHour + ":" + endArray[1] + "AM";
 							}
 							else if(endArray[0] == 12)
 							{
@@ -254,10 +295,12 @@
 								endHour = endArray[0] - 12;
 								end = endHour + ":" + endArray[1] + "PM";
 							}
+							else if(endArray[0] == 0)
+							{
+								endHour = 12;
+								end = endHour + ":" + endArray[1] + "AM";
+							}
 							
-							//*/
-							//////////////////////////////////////////////////////////////////////////
-							//////////////////////////////////////////////////////////////////////////
 							
 							let newChild = document.createElement('div');
 							newChild.innerHTML = "<a href='workerViewShift.php?id=" + array[j]['shift_id'] + "'>" + start + "-" + end + "</a>";
