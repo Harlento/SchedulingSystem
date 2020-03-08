@@ -232,31 +232,22 @@
 				//Translating from 24 to 12hr time
 				$start = $row['SCHEDULED_START'];
 				$end = $row['SCHEDULED_END'];
-				
-				//This converts 24hr to 12hr time
-				//var start = array[j]['scheduled_start'];
-				//var end = array[j]['scheduled_end'];
-				
-				//var startArray = start.split(":");
-				//var endArray = end.split(":");
+		
 				
 				$startArray = explode(":", $start);
 				$endArray = explode(":", $end);
-				
-				//$hour;
-				//$endHour;
-				
-				//var hour;
-				//var endHour;
 				
 				
 				$hour = "";
 				$endHour = "";
 				
 				//Converting shift start time to 12hr format
-				if($startArray[0] < 12)
+				if( ($startArray[0] < 12) && ($startArray[0] != 0) )
 				{
-					$start = $startArray[0] . ":" . $startArray[1] . "AM";
+					//Removing the leading zero 
+					$startHour = $startArray[0];
+					$startHour = intVal($startHour, 10);
+					$start = $startHour . ":" . $startArray[1] . "AM";
 				}
 				else if($startArray[0] == 12)
 				{
@@ -267,11 +258,19 @@
 					$hour = $startArray[0] - 12;
 					$start = $hour . ":" . $startArray[1] . "PM";
 				}
+				else if($startArray[0] == 0)
+				{
+					$hour = 12;
+					$start = $hour . ":" . $startArray[1] . "AM";
+				}
 				
 				//Converting shift end time to 12hr format
-				if($endArray[0] < 12)
+				if( ($endArray[0] < 12) && ($endArray[0] != 0) )
 				{
-					$end = $endArray[0] . ":" . $endArray[1] . "AM";
+					//Removing the leading zero
+					$endHour = $endArray[0];
+					$endHour = intVal($endHour, 10);
+					$end = $endHour . ":" . $endArray[1] . "AM";
 				}
 				else if($endArray[0] == 12)
 				{
@@ -281,6 +280,11 @@
 				{
 					$endHour = $endArray[0] - 12;
 					$end = $endHour . ":" . $endArray[1] . "PM";
+				}
+				else if($endArray[0] == 0)
+				{
+					$endHour = 12;
+					$end = $endHour . ":" . $endArray[1] . "AM";
 				}
 				
 				printf("
