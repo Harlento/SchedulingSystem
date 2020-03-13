@@ -1,0 +1,29 @@
+Phone number needs example
+Availability needs to disappear when coordinator is selected
+Notes box can be bigger
+Change password from the worker old pass new password
+Css on modify sheets needs to be fixed
+Add cancel/back button for forms
+Might want to change the the submit button to save
+Active or inactive for group home
+Group home name should not be able to be changed in two locations
+Tim likes a type box that has a drop down for the search
+Department needs to auto fill some people / gh awake gh asleep
+Figure out what is going on with the supervisor checkbox
+Last input to the database is represented in the database
+Look at how they layout shifts
+Coordinators should not be able to modify claimed hours just approved hours
+Filter shifts by worker client department by date
+Filtering mod recurring shifts by department
+Be able to check last month in and next month
+Total number of hours per day for workers
+3 columns for scheduled claimed approved when reviewing timesheets
+Make coordinators check the time sheets before submitting them to approved hours
+Give coordinators ability to look at the approved hours list
+Add filter in to the reports
+Reports for approving hours need to look like the submit hours
+each shift need needs to be approved individually
+prevent redundant records from being created
+
+extra stuff:
+Add guardian/landlord information if we have time
