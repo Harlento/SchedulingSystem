@@ -25,7 +25,8 @@
 			{
 				vertical-align: top;
 				text-align: left;
-				
+				width: 14.25%;
+				word-break: break-word;
 			}
 			
 			table
@@ -69,8 +70,8 @@
 			
 			.childBodyDiv
 			{
-				height: 85%;
-				width: 60%;
+				height: 100%;
+				width: 100%;
 				display: inline-block;
 			}
 		</style>
@@ -104,6 +105,7 @@
 			{
 				$staffID = $_SESSION['staffID'];
 			}
+			//echo $staffID;
             //Verify user
 
             //Include header
@@ -148,7 +150,7 @@
 			//test
 			//$conn->connection = null;
 			
-			$array = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31);
+			//$array = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31);
 			
 			//$shiftID = $dataArray[][];
 
@@ -173,12 +175,38 @@
 			
 			
 			$dateComponents = getdate();
-
+			
+			//Month being stored in a session var
 			$month = $dateComponents['mon'];
+			if(!isset($_REQUEST['submit']))
+			{
+				$_SESSION['month'] = $month;
+			}
+			
+			//Testing changing the month
+			//$month = $month - 10;
+			
+			//test
+			//print($month);
+			
+			
 			$year = $dateComponents['year'];
 			
+				
+			if( (isset($_REQUEST['submit'])) && ($_REQUEST['nextMonth'] == 1) )
+			{
+				
+				$month = $_SESSION['month'] + 1;
+				$_SESSION['month'] = $_SESSION['month'] + 1;
+			}
+			else if( (isset($_REQUEST['submit'])) && ($_REQUEST['nextMonth'] == -1) )
+			{
+				$month = $_SESSION['month'] - 1;
+				$_SESSION['month'] = $_SESSION['month'] - 1;
+			}
+			
 			//This will print out the calendar
-			echo build_calendar($month,$year,$dateComponents);
+			echo build_calendar($month,$year);
 			
 			print("
 					</div>
@@ -190,9 +218,14 @@
         ?>
         
 			<script>
-
+					
 				//////////////////////Calendar population script///////////////////////////
 				////////////////////////////////////////////////////////////////
+				/*
+				Author: Harley Lenton
+				Date: 03/03/20
+				Brief: This script will populate the calendar with all the shifts of the current worker. 
+				*/
 				var index;
 				
 				//Passing data from PHP to JS
@@ -244,7 +277,7 @@
 							//test
 							//document.getElementById(date + i).innerHTML = array[j]['shift_date'];
 
-							//This converts 24hr to 12hr time
+							//This will convert 24hr to 12hr time///////////////////////////////////////////////////////////////////
 							var start = array[j]['scheduled_start'];
 							var end = array[j]['scheduled_end'];
 							
@@ -261,21 +294,21 @@
 								//Getting rid of the leading zero of the first hour
 								var startHour = startArray[0];
 								startHour = parseInt(startHour, 10);
-								start = startHour + ":" + startArray[1] + "AM";
+								start = startHour + ":" + startArray[1] + "<br />" + "AM";
 							}
 							else if(startArray[0] == 12)
 							{
-								start = startArray[0] + ":" + startArray[1] + "PM";
+								start = startArray[0] + ":" + startArray[1] + "<br />" + "PM";
 							}
 							else if(startArray[0] > 12)
 							{
 								hour = startArray[0] - 12;
-								start = hour + ":" + startArray[1] + "PM";
+								start = hour + ":" + startArray[1] + "<br />" + "PM";
 							}
 							else if(startArray[0] == 0)
 							{
 								hour = 12;
-								start = hour + ":" + startArray[1] + "AM";
+								start = hour + ":" + startArray[1] + "<br />" + "AM";
 							}
 							
 							//Converting shift end time to 12hr format
@@ -284,23 +317,23 @@
 								//Removing leading zero
 								var endHour = endArray[0];
 								endHour = parseInt(endHour, 10);
-								end = endHour + ":" + endArray[1] + "AM";
-							}
+								end = endHour + ":" + endArray[1] + "<br />" + "AM";
+							}//Noon will be changed into 12PM by this
 							else if(endArray[0] == 12)
 							{
-								end = endArray[0] + ":" + endArray[1] + "PM";
+								end = endArray[0] + ":" + endArray[1] + "<br />" + "PM";
 							}
 							else if(endArray[0] > 12)
 							{
 								endHour = endArray[0] - 12;
-								end = endHour + ":" + endArray[1] + "PM";
-							}
+								end = endHour + ":" + endArray[1] + "<br />" + "PM";
+							}//Midnight 00 will be changed into 12AM by this
 							else if(endArray[0] == 0)
 							{
 								endHour = 12;
-								end = endHour + ":" + endArray[1] + "AM";
+								end = endHour + ":" + endArray[1] + "<br />" + "AM";
 							}
-							
+							/////////////////////////////////////////////////////////////////////////
 							
 							let newChild = document.createElement('div');
 							newChild.innerHTML = "<a href='workerViewShift.php?id=" + array[j]['shift_id'] + "'>" + start + "-" + end + "</a>";
