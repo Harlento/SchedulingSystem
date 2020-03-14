@@ -1,0 +1,24 @@
+List of Main Pages:
+- index.php: the login screen
+- land.php: the home screen
+- addclient.php: allows adding clients
+- modclient.php: allows modifying clients
+- viewclient.php: shows a table of clients
+- adddep.php: allows adding departments
+- moddep.php: allows modifying departments
+- viewdep.php: shows a table of departments
+- addgh.php: allows adding group homes
+- modgh: allows modifying group homes
+- viewgh: shows a table of group homes
+- about.html: shows the about screen
+- approvetime.php: shows a list of submitted timesheets for approval
+- revtime.php: shows the submitted timesheet to be reviewed by coordinators
+- schedshift.php: allows shifts and recurring shifts to be scheduled
+- schedrecshift.php: allows recurring shifts to be scheduled by department
+- modrecshift.php: allows recurring shifts to be modified
+- viewrecshift.php: shows a table of recurring shifts
+- modshift.php: allows individual shifts to be modified
+- viewshift.php: shows all shifts
+- timesheet.php: allows workers to submit their timesheets
+- viewSched.php: shows a worker's schedule
+- workerViewShift.php: shows information about a selected shift
