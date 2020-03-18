@@ -3,7 +3,7 @@ Availability needs to disappear when coordinator is selected
 X  Notes box can be bigger
 Change password from the worker old pass new password
 Css on modify sheets needs to be fixed
-Add cancel/back button for forms
+X  Add cancel/back button for forms
 Might want to change the the submit button to save
 Active or inactive for group home
 Group home name should not be able to be changed in two locations
