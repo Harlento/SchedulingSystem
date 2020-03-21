@@ -25,3 +25,4 @@ List of Main Pages:
 - supermod.php: allow supervisors to select a group home to modify shifts for
 - supermodshift.php: like modshift, but allows supervisors to only change the staff
 - supersched.php: displays the shifts that a supervisor can modify in a calendar view
+- changepass.php: allows workers to change their password
