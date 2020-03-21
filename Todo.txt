@@ -1,7 +1,7 @@
 X	Phone number needs example
 Availability needs to disappear when coordinator is selected
 X  Notes box can be bigger
-Allow workers to change their password
+X  Allow workers to change their password
 Css on modify sheets needs to be fixed
 X  Add cancel/back button for forms
 Might want to change the the submit button to save
