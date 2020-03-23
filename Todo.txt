@@ -12,7 +12,7 @@ Department needs to auto fill some people / gh awake gh asleep
 Figure out what is going on with the supervisor checkbox
 Change success messages to include names of records modified/added
 Look at how they layout shifts
-Coordinators should not be able to modify claimed hours just approved hours
+X  Coordinators should not be able to modify claimed hours just approved hours
 X  Filter viewing shifts by worker, client, department by date
 Filtering mod recurring shifts by department
 X	 Be able to check last month and next month in calendar
