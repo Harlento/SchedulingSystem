@@ -1,5 +1,5 @@
 X	Phone number needs example
-Availability needs to disappear when coordinator is selected
+X  Availability needs to disappear when coordinator is selected
 X  Notes box can be bigger
 X  Allow workers to change their password
 Css on modify sheets needs to be fixed
@@ -7,7 +7,7 @@ X  Add cancel/back button for forms
 Might want to change the the submit button to save
 Active or inactive for group home
 Group home name should not be able to be changed in two locations
-Tim likes a type box that has a drop down for the search
+X  Get search for dropdowns working
 Department needs to auto fill some people / gh awake gh asleep
 Figure out what is going on with the supervisor checkbox
 Change success messages to include names of records modified/added
@@ -24,6 +24,7 @@ X  Reports for approving hours need to look like the submit hours
 X  Make coordinators check the time sheets before submitting them to approved hours
 X  each shift need needs to be approved individually
 prevent redundant records from being created
+Only show available staff when scheduling shifts
 
 extra stuff:
 Add guardian/landlord information if we have time
