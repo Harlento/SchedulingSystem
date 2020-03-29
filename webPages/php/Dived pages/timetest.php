@@ -4,73 +4,84 @@
  *  Description: Allows staff to review and submit their hours
  *  Date Start:  08/03/2020
  *  Date End:    TBD
- *  TODO:    	 - Get last pay period instead of set date
+ *  TODO:    	 - Get last pay period instead of current pay period
  */?>
-<?php
-echo'
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	        <title>Submit Timesheet</title>
-    <title>Table</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/table.css" rel="stylesheet" type="text/css">
-	
-			<script>
+<html>
+
+    <head>
+
+        <title>Submit Timesheet</title>
+		<?php
+			//Starting a session and initializing variables needed
+			session_start(); 
+			$userType = $_SESSION['userType'];
+		
+			//include links to css, javascript, etc.
+			include "../includes/scripts/headLinks2.0.php";?>
+			
+		<script>
 			//this function changes the status of the submit button when the confirmation checkbox is clicked
 			function verify()
 			{
 			  //if checkbox is checked, set submit button enabled
-			  if (document.getElementById("ver").checked) 
+			  if (document.getElementById('ver').checked) 
 			  {
-				  document.getElementById("sub").disabled = false;
+				  document.getElementById('sub').disabled = false;
 			  }
 			  //if checkbox is unchecked, set submit button disabled
 			  else {
-				  document.getElementById("sub").disabled = true;
+				  document.getElementById('sub').disabled = true;
 			  }
 			}
+			
 		</script>
-</head>
-<body>
-';
+		</script>
 
-			#Starting a session and initilizing variables needed
-			session_start(); 
-			$userType = $_SESSION['userType'];
+    </head>
 
+    <body>
 
-		 include "../includes/scripts/headLinks2.0.php";
-		include "../includes/scripts/navBar.php";
-		 echo'
-<div class="row justify-content-center">
-<form class="form-con">
-    <form>
-';
-
-
-
+        <?php
+		
 		//level of authorization required to access page
 		$authLevel = "W";
-
+		
 		//to verify the user 
 		include "../includes/functions/verLogin.php";
 		verLogin();
-
+		
 		//to verify the user's type
 		include "../includes/functions/valUserType.php";
 		valUserType($authLevel);
-
+		
 	//connect to the database
 	$username = 'Coordinator';
 	$password = 'Password1';
 	$conn = new PDO("mysql:host=localhost; dbname=edenbridgetest", $username, $password);
-
+	
 	//set ID variable to session variable
 	$id = $_SESSION['staffID'];
+	
+	//gets the number of days in the month
+	$days = date('t');
 
+	//if today's date is before or equal to the 15th, set min to 1 and max to 15
+	if(date('d') <= 15)
+	{
+		$max = 15;
+		$maxdate = date('Y-m-') . '15';
+		$min = 1;
+		$mindate = date('Y-m-') . '01';
+	}
+	//if the date is after the 15th, set max to $days and min to 16
+	else
+	{
+		$max = $days;
+		$maxdate  = date('Y-m-t');
+		$min = 16;
+		$mindate = date('Y-m-') . '16';
+	}
+	
 	//if the form has been submitted
 	if(isset($_POST['submit']))
 	{
@@ -84,7 +95,7 @@ echo'
 				$arr = explode('-', $index);
 				$shiftId = $arr[0];
 				$stEnd = $arr[1];
-
+				
 				//if it is a start time
 				if($stEnd == 'St')
 				{
@@ -102,20 +113,20 @@ echo'
 			}
 		}
 		//when hours have been submitted, send user back to this page with a success message
-		header ("Location: timetest.php?s=1");
+		header ("Location: timesheet.php?s=1");
 	}
-
-
-
-
+	
+	//include navbar
+	include "../includes/scripts/navBar.php";
+	
 	//select basic information about shifts, ordered first by client, then by date,
 	//then by start time in case somehow the same staff is scheduled with the same client multiple times in one day
 	$sql = $conn->prepare("SELECT SHIFT_ID, SHIFT_DATE, SCHEDULED_START, SCHEDULED_END, SHIFT_DATE, SHIFT.CLIENT_ID, CLIENT_LNAME, CLIENT_FNAME
 				FROM SHIFT
 				LEFT JOIN CLIENT
 				ON SHIFT.CLIENT_ID = CLIENT.CLIENT_ID
-				WHERE SHIFT_DATE > '2020-03-01'
-				AND SHIFT_DATE < '2020-03-15'
+				WHERE SHIFT_DATE > '$mindate'
+				AND SHIFT_DATE < '$maxdate'
 				AND STAFF_ID = '$id'
 				AND STATUS_CODE = 'S'
 				ORDER BY CLIENT_LNAME ASC, SHIFT_DATE ASC, SCHEDULED_START ASC");
@@ -146,15 +157,15 @@ echo'
 	//if there are shifts to claim
 	else
 	{
-
+		
 		//set up the table, inside a form
-
-		echo "<form action='timetest.php' method='post'>
+		
+		echo "<form action='timesheet.php' method='post'>
 				<table border='1'>
 				<tr>
 				<th>Individual Served</th>
 				<th>Specifics</th>";
-
+		
 		$min = 0;
 		$max = 0;
 		//if the date is before the 15th, print the first half of the month
@@ -188,12 +199,12 @@ echo'
 			if($lastcli != $row[$i]['CLIENT_ID'])
 			{
 				$tempmin = $min;
-
+				
 				//set up the row
 				echo "<tr>";
-				echo "<td>Last: {$row[$i]['CLIENT_LNAME']}</td>";
+				echo "<td><b>Last:</b> {$row[$i]['CLIENT_LNAME']}</td>";
 				echo "<td>Start Time:</td>";
-
+				
 				$j = $i;
 				//starting with the current record, until the client is different
 				do
@@ -210,13 +221,13 @@ echo'
 					$shiftId = $row[$j]['SHIFT_ID'] . '-St';
 					echo "<td><input type='time' name='$shiftId' value='{$row[$j]['SCHEDULED_START']}' /></td>";
 					$tempmin++;
-
+					
 					$j++;
 					//if the next record is the last one, break out of the loop
 					if($j >= sizeof($row))
 						break;
 				} while ($row[$j]['CLIENT_ID'] == $row[$j-1]['CLIENT_ID']);
-
+				
 				//fill the timesheet with blank table data until the end of the table
 				while($tempmin <= $max)
 				{
@@ -225,13 +236,13 @@ echo'
 				}
 				//when all of the start times for that client are filled in, end the row 
 				echo "</tr>";
-
+				
 				//reset tempmin, set up the next row
 				$tempmin = $min;
 				echo "<tr>";
-				echo "<td>First: {$row[$i]['CLIENT_FNAME']}</td>";
+				echo "<td><b>First:</b> {$row[$i]['CLIENT_FNAME']}</td>";
 				echo "<td>End Time:</td>";
-
+				
 				$j = $i;
 				//this loop is the same as the start time, except it prints the end time
 				do
@@ -245,7 +256,7 @@ echo'
 					$shiftId = $row[$j]['SHIFT_ID'] . '-End';
 					echo "<td><input type='time' name='$shiftId' value='{$row[$j]['SCHEDULED_END']}' /></td>";
 					$tempmin++;
-
+					
 					$j++;
 					if($j >= sizeof($row))
 						break;
@@ -256,56 +267,36 @@ echo'
 					$tempmin++;
 				}
 				echo "</tr>";
-
+				
 				//set the last client as lastcli, so that their shifts won't be displayed again
 				$lastcli = $row[$i]['CLIENT_ID'];
 			}
-
+			
 			//increment i to get the next record
 			$i++;
 		}
-
-		//end the tableho
-
-		echo'
-		        <div>
-            <span class="badge badge-success">Childrens</span>
-            <span class="badge badge-danger">CTO</span>
-            <span class="badge badge-warning">Private</span>
-            <span class="badge badge-light">PDD</span>
-            <span class="badge badge-purp">Group Home</span>
-        </div>
-		';
-				echo'<input class="form-control" type="text" placeholder="Guys name" readonly>';
-				echo'<input class="form-control" type="text" placeholder="3/28/2020" readonly>
-				<br>';
-
+		
+		//end the table
 		echo "</table><br /><br />\n
 			By checking this box, I certify that this timesheet is complete and accurately reflects my time and effort:
 			<!--this checkbox has to be checked before timesheet can be submitted-->
 			<input id='ver' type='checkbox' name='ver' onclick='verify()'><br /><br />
-			<input id='sub' type='submit' name='submit' value='Submit Timesheet' disabled='true' class='btn btn-primary'>
-			<a href='../land.php' class='btn btn-danger'>Cancel</a>
-			
-		 </form><br />";
-
-
-
+			<input id='sub' type='submit' name='submit' value='Submit Timesheet' disabled='true'>
+		</form><br />
+		
+		<a href='../land.php' class='btn btn-danger'>Cancel</a>";
+					
 		//releasing database resources
 		if(isset($conn) )
 		{
 			$conn = null;
 		}
+		
+		//include footer
+		include "../includes/scripts/footer.php";
 	}
-
-echo'
-         
-    </form>
-</form>
-</div>';
-	include "../includes/scripts/footer.php";
-	echo'
-</body>
+	?>
+	</body>
 </html>
-';
-?>
+
+
