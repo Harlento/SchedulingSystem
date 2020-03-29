@@ -25,6 +25,8 @@ Give coordinators ability to look at the approved hours list
 X  Reports for approving hours need to look like the submit hours
 X  Make coordinators check the time sheets before submitting them to approved hours
 X  each shift need needs to be approved individually
+Colour-code reports, timesheets, calendars, etc.
+Change view pages to only show active clients/staff, option to show inactive as well
 *  UI needs to be improved, add divs so forms aren't pressed up against the side of the screen
 *  prevent redundant records from being created
 *  Only show available staff when scheduling shifts
