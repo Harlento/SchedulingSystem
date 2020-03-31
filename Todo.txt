@@ -7,7 +7,7 @@ X  Notes box can be bigger
 X  Allow workers to change their password
 X  Add cancel/back button for forms
 Might want to change the the submit button to save
-*  Active or inactive for group home
+x  Active or inactive for group home
 Group home name should not be able to be changed in two locations
 X  Get search for dropdowns working
 *  Selecting certain departments needs to change client dropdown (ex. GH awake/asleep)
