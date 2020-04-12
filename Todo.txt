@@ -22,7 +22,7 @@ X  each shift need needs to be approved individually
 Change view pages to only show active clients/staff, option to show inactive as well
 *  UI needs to be improved, add divs so forms aren't pressed up against the side of the screen
 X  prevent redundant records from being created
-*  Option to only show available staff when scheduling shifts
+X  Option to only show available staff when scheduling shifts
 *  Allow hours/timesheets from previous pay periods to be submitted/approved
 Show if staff can drive/work with certain people when scheduling shifts
 Indicate if shift will be overtime/over client's allotted hours when scheduling shifts
