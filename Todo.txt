@@ -6,30 +6,29 @@ X  Availability needs to disappear when coordinator is selected
 X  Notes box can be bigger
 X  Allow workers to change their password
 X  Add cancel/back button for forms
-Might want to change the the submit button to save
 x  Active or inactive for group home
-Group home name should not be able to be changed in two locations
 X  Get search for dropdowns working
 *  Selecting certain departments needs to change client dropdown (ex. GH awake/asleep)
 Figure out what is going on with the supervisor checkbox
-Change success messages to include names of records modified/added
-Look at how they layout shifts
 X  Coordinators should not be able to modify claimed hours just approved hours
 X  Filter viewing shifts by worker, client, department by date
 X  View recurring shifts by staff, client, department
 X  Be able to check last month and next month in calendar
-Total number of hours per day for worker timesheet
-X  3 columns for scheduled claimed approved when reviewing timesheets
-Give coordinators ability to look at the approved hours list
+X  3 columns for scheduled, claimed, approved when reviewing timesheets
 *  Finish report creation
 X  Reports for approving hours need to look like the submit hours
 X  Make coordinators check the time sheets before submitting them to approved hours
 X  each shift need needs to be approved individually
-Colour-code reports, timesheets, calendars, etc.
 Change view pages to only show active clients/staff, option to show inactive as well
 *  UI needs to be improved, add divs so forms aren't pressed up against the side of the screen
 X  prevent redundant records from being created
-*  Only show available staff when scheduling shifts
+*  Option to only show available staff when scheduling shifts
+*  Allow hours/timesheets from previous pay periods to be submitted/approved
+Show if staff can drive/work with certain people when scheduling shifts
+Indicate if shift will be overtime/over client's allotted hours when scheduling shifts
 
-extra stuff:
-Add guardian/landlord information if we have time
+Extra additions:
+Add guardian/landlord information
+Change success messages to include names of records modified/added
+Give coordinators ability to look at the approved hours list
+Colour-code reports, timesheets, calendars, etc.
