@@ -1,3 +1,4 @@
+
 CREATE TABLE USER_TYPE
 (
 	TYPE_CODE char(1) NOT NULL,
@@ -100,6 +101,7 @@ CREATE TABLE REC_SHIFT
 	REC_DAY char(3) NOT NULL,
 	REC_START time,
 	REC_END time,
+	REC_SUPER tinyint,
 	REC_NOTES text,
 	PRIMARY KEY (REC_ID),
 	FOREIGN KEY (DEP_CODE) REFERENCES DEPARTMENT(DEP_CODE),
@@ -122,6 +124,7 @@ CREATE TABLE SHIFT
 	CLAIMED_END time,
 	APPROVED_START time,
 	APPROVED_END time,
+	SHIFT_SUPER tinyint,
 	SHIFT_NOTES text,
 	PRIMARY KEY (SHIFT_ID),
 	FOREIGN KEY (REC_ID) REFERENCES REC_SHIFT(REC_ID),
@@ -147,5 +150,5 @@ INSERT INTO C_S_STATUS VALUES ('H', 'On Hold');
 
 INSERT INTO GROUP_HOME (GH_NAME) VALUES ('N/A');
 
-INSERT INTO CLIENT (GH_ID, CLIENT_FNAME, CLIENT_LNAME, CLIENT_PHONE, CLIENT_ADDRESS, CLIENT_CITY, CLIENT_NOTES) VALUES ('0', 'Awake', 'Group Home', 'N/A', 'N/A', 'N/A', 'When scheduling daytime group home shifts, select this client.');
-INSERT INTO CLIENT (GH_ID, CLIENT_FNAME, CLIENT_LNAME, CLIENT_PHONE, CLIENT_ADDRESS, CLIENT_CITY, CLIENT_NOTES) VALUES ('0', 'Asleep', 'Group Home', 'N/A', 'N/A', 'N/A', 'When scheduling overnight group home shifts, select this client.');
+INSERT INTO CLIENT (GH_ID, CLIENT_FNAME, CLIENT_LNAME, CLIENT_PHONE, CLIENT_ADDRESS, CLIENT_CITY, CLIENT_NOTES) VALUES ('1', 'Awake', 'Group Home', 'N/A', 'N/A', 'N/A', 'When scheduling daytime group home shifts, select this client.');
+INSERT INTO CLIENT (GH_ID, CLIENT_FNAME, CLIENT_LNAME, CLIENT_PHONE, CLIENT_ADDRESS, CLIENT_CITY, CLIENT_NOTES) VALUES ('1', 'Asleep', 'Group Home', 'N/A', 'N/A', 'N/A', 'When scheduling overnight group home shifts, select this client.');
