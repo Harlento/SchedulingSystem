@@ -26,6 +26,7 @@ X  Option to only show available staff when scheduling shifts
 *  Allow hours/timesheets from previous pay periods to be submitted/approved
 Show if staff can drive/work with certain people when scheduling shifts
 Indicate if shift will be overtime/over client's allotted hours when scheduling shifts
+When viewing shifts, don't display claimed/approved time unless shift is claimed/approved
 
 Extra additions:
 Add guardian/landlord information
