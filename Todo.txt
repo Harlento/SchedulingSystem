@@ -6,7 +6,7 @@ X  Availability needs to disappear when coordinator is selected
 X  Notes box can be bigger
 X  Allow workers to change their password
 X  Add cancel/back button for forms
-x  Active or inactive for group home
+X  Active or inactive for group home
 X  Get search for dropdowns working
 *  Selecting certain departments needs to change client dropdown (ex. GH awake/asleep)
 Figure out what is going on with the supervisor checkbox
@@ -20,7 +20,7 @@ X  Reports for approving hours need to look like the submit hours
 X  Make coordinators check the time sheets before submitting them to approved hours
 X  each shift need needs to be approved individually
 Change view pages to only show active clients/staff, option to show inactive as well
-*  UI needs to be improved, add divs so forms aren't pressed up against the side of the screen
+X  UI needs to be improved, add divs so forms aren't pressed up against the side of the screen
 X  prevent redundant records from being created
 X  Option to only show available staff when scheduling shifts
 *  Allow hours/timesheets from previous pay periods to be submitted/approved
