@@ -1,0 +1,24 @@
+- We ran into some errors with the database where capitalization errors caused issues trying to connect to the database
+- We ran into some issues where we may not have had a perfect idea of how they relate their clients to departments
+- Fix forms so loopback works better
+- Schedrecshift has a broken cancel button
+- modshift is squished
+- Viewstaff doesn't have proper divs
+- Footers are still jank
+- Calendars aren't working
+- workerViewShift has no CSS
+- schedRecShift might be off a day
+- change gh asleep to group home name in timesheet
+- Timesheet no hours needs footer moved
+- approvehours has incorrect hours
+- supervisors can add notes
+- show notes for shifts on revtime
+- show scheduled/claimed on revtime
+- revtime is good with manual entry
+- Fix time formats
+- Approvetime has 2 back buttons when empty
+- Bookkeeper homepage is gone I guess?
+- Reports are still jank
+- UI is good
+- Option for workers to add notes
+- Identify which shifts have been approved on revtime, indicate which shifts have different scheduled/claimed hours
