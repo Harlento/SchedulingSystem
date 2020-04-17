@@ -9,7 +9,6 @@ X  Add cancel/back button for forms
 X  Active or inactive for group home
 X  Get search for dropdowns working
 *  Selecting certain departments needs to change client dropdown (ex. GH awake/asleep)
-Figure out what is going on with the supervisor checkbox
 X  Coordinators should not be able to modify claimed hours just approved hours
 X  Filter viewing shifts by worker, client, department by date
 X  View recurring shifts by staff, client, department
@@ -23,13 +22,18 @@ Change view pages to only show active clients/staff, option to show inactive as 
 X  UI needs to be improved, add divs so forms aren't pressed up against the side of the screen
 X  prevent redundant records from being created
 X  Option to only show available staff when scheduling shifts
-*  Allow hours/timesheets from previous pay periods to be submitted/approved
+X  Allow hours/timesheets from previous pay periods to be submitted/approved
 Show if staff can drive/work with certain people when scheduling shifts
 Indicate if shift will be overtime/over client's allotted hours when scheduling shifts
 When viewing shifts, don't display claimed/approved time unless shift is claimed/approved
+Allow Workers/Supervisors to add notes
+Show shift notes when reviewing hours
+Identify which shifts have been approved in revtime, maybe colour-code when scheduled/claimed don't match
+Show scheduled/claimed time for each shift in revtime
+Change client from gh awake/asleeep to group home name for staff timesheets
 
 Extra additions:
 Add guardian/landlord information
 Change success messages to include names of records modified/added
-Give coordinators ability to look at the approved hours list
+Give coordinators ability to look at approved timesheets
 Colour-code reports, timesheets, calendars, etc.
