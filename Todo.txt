@@ -27,9 +27,9 @@ Show if staff can drive/work with certain people when scheduling shifts
 Indicate if shift will be overtime/over client's allotted hours when scheduling shifts
 When viewing shifts, don't display claimed/approved time unless shift is claimed/approved
 Allow Workers/Supervisors to add notes
-Show shift notes when reviewing hours
-Identify which shifts have been approved in revtime, maybe colour-code when scheduled/claimed don't match
-Show scheduled/claimed time for each shift in revtime
+X  Show shift notes when reviewing hours
+X  Identify which shifts have been approved in revtime, maybe colour-code when scheduled/claimed don't match
+X  Show scheduled/claimed time for each shift in revtime
 Change client from gh awake/asleeep to group home name for staff timesheets
 
 Extra additions:
