@@ -31,7 +31,7 @@ Allow workers to submit notes somehow
 X  Show shift notes when reviewing hours
 X  Identify which shifts have been approved in revtime, maybe colour-code when scheduled/claimed don't match
 X  Show scheduled/claimed time for each shift in revtime
-Change client from gh awake/asleeep to group home name for staff timesheets
+X  Change client from gh awake/asleeep to group home name for staff timesheets
 
 Extra additions:
 Add guardian/landlord information
