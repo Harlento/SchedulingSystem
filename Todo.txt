@@ -32,6 +32,7 @@ X  Show shift notes when reviewing hours
 X  Identify which shifts have been approved in revtime, maybe colour-code when scheduled/claimed don't match
 X  Show scheduled/claimed time for each shift in revtime
 X  Change client from gh awake/asleeep to group home name for staff timesheets
+Add a help page
 
 Extra additions:
 Add guardian/landlord information
